@@ -19,7 +19,7 @@ blocks:
         https://res.cloudinary.com/protocolai/image/upload/v1649882497/microgen/Hall_of_Fame_grccee_k39etu.png
       alt: Illustration of space shuttles
     label: ''
-    headline: Microgen
+    headline: Orbit Community
     subhead: A site builder for Web 3.0
     body: |
       Make [modern web 3.0](#) ready websites with a real-time visual editor.
