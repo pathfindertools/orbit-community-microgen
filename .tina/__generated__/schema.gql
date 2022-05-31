@@ -1106,7 +1106,42 @@ type PagesBlocksLeaderCards {
   navigationLabel: String
 }
 
-union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards | PagesBlocksLeaderCards
+type PagesBlocksModalsBackgroundOrnaments {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+type PagesBlocksModalsBackground {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksModalsBackgroundOrnaments]
+}
+
+type PagesBlocksModalsItems {
+  buttonLabel: String
+  buttonLabelSub: String
+  headline: String
+  body: String
+}
+
+type PagesBlocksModals {
+  background: PagesBlocksModalsBackground
+  rule: String
+  label: String
+  headline: String
+  subhead: String
+  body: JSON
+  items: [PagesBlocksModalsItems]
+  rule2: String
+  navigationLabel: String
+}
+
+union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards | PagesBlocksLeaderCards | PagesBlocksModals
 
 type PagesMeta {
   pageTitle: String
@@ -2170,6 +2205,41 @@ input PagesBlocksLeaderCardsMutation {
   navigationLabel: String
 }
 
+input PagesBlocksModalsBackgroundOrnamentsMutation {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+input PagesBlocksModalsBackgroundMutation {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksModalsBackgroundOrnamentsMutation]
+}
+
+input PagesBlocksModalsItemsMutation {
+  buttonLabel: String
+  buttonLabelSub: String
+  headline: String
+  body: String
+}
+
+input PagesBlocksModalsMutation {
+  background: PagesBlocksModalsBackgroundMutation
+  rule: String
+  label: String
+  headline: String
+  subhead: String
+  body: JSON
+  items: [PagesBlocksModalsItemsMutation]
+  rule2: String
+  navigationLabel: String
+}
+
 input PagesBlocksMutation {
   feature: PagesBlocksFeatureMutation
   photoCards: PagesBlocksPhotoCardsMutation
@@ -2179,6 +2249,7 @@ input PagesBlocksMutation {
   tailwindFeature: PagesBlocksTailwindFeatureMutation
   tailwindCards: PagesBlocksTailwindCardsMutation
   leaderCards: PagesBlocksLeaderCardsMutation
+  modals: PagesBlocksModalsMutation
 }
 
 input PagesMetaMutation {

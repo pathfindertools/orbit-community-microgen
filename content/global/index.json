@@ -4,8 +4,8 @@
   "gtmId": "",
   "colors": {
     "primary": "#0090FF",
-    "accent1": "#0E4465",
-    "accent2": "#1BBF6E",
+    "accent1": "#001D33",
+    "accent2": "#FF7E7E",
     "accent3": "#2DD0DB",
     "accent4": "#00D0DB",
     "white": "#FFFFFF",
@@ -15,13 +15,13 @@
     "black": "#000000"
   },
   "fonts": {
-    "font1": "Inter:wght@400;700",
-    "font2": "Archivo:wght@400;700",
+    "font1": "Rubik:wght@900",
+    "font2": "Rubik:wght@300;500",
     "font3": "Rufina:wght@400;700",
     "font4": "IBM Plex Mono:wght@400;700"
   },
   "sizeLeading": {
-    "textXs": "12/20",
+    "textXs": "10/20",
     "textSm": "14/24",
     "textMd": "16/28",
     "textLg": "18/28",

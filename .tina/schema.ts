@@ -8,6 +8,7 @@ import { embedBlockSchema } from "./embed";
 import { tailwindFeatureBlockSchema } from "./tailwind-feature";
 import { tailwindCardsBlockSchema } from "./tailwind-cards";
 import { leaderCardsBlockSchema } from "./leader-cards";
+import { modalsBlockSchema } from "./modals";
 
 export default defineSchema({
   collections: [
@@ -37,6 +38,7 @@ export default defineSchema({
             tailwindFeatureBlockSchema,
             tailwindCardsBlockSchema,
             leaderCardsBlockSchema,
+            modalsBlockSchema,
           ],
         },
         {
