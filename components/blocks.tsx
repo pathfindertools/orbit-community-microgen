@@ -7,6 +7,7 @@ import { Embed } from "./blocks/embed";
 import { TailwindFeature } from "./blocks/tailwind-feature";
 import { TailwindCards } from "./blocks/tailwind-cards";
 import { LeaderCards } from "./blocks/leader-cards";
+import { Modals } from "./blocks/modals";
 
 export const Blocks = (props: Pages | Global) => {
   return (
@@ -67,6 +68,12 @@ export const Blocks = (props: Pages | Global) => {
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
                     <LeaderCards data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PagesBlocksModals":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
+                    <Modals data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               default:
