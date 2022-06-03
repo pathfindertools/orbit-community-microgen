@@ -896,6 +896,12 @@ fragment PagesParts on Pages {
       }
       rule
       headline
+      cardlabels {
+        __typename
+        nameLabel
+        countryLabel
+        badgeLabel
+      }
       items {
         __typename
         imageSrc

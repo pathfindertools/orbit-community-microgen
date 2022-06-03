@@ -92,6 +92,10 @@ blocks:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
     headline: This is the main headline
+    cardlabels:
+      nameLabel: Name
+      countryLabel: Country
+      badgeLabel: Tier
     items:
       - name: Full Name
         twitter: Twitter Handle

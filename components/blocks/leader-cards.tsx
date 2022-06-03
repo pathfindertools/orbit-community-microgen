@@ -54,6 +54,22 @@ export const LeaderCards = ({ data, parentField = "" }) => {
         </div>
       </div>
       <div className="leader-cards grid gap-8 grid-cols-2 sm:gap-4 sm:grid-cols-1">
+        
+        { data.headline && 
+          <div className="flex bg-black items-center py-4 px-6 text-sm font-display2 md:px-6 lg:px-10">
+            <span className="w-1/3 flex-1 text-white font-bold text-lg uppercase">{data.cardlabels.nameLabel}</span>
+            <span className="px-6 text-white font-bold text-lg uppercase">{data.cardlabels.countryLabel}</span>
+            <span className="text-white font-bold text-lg uppercase">{data.cardlabels.badgeLabel}</span>
+          </div> 
+        }
+        { data.headline && 
+          <div className="hidden bg-black items-center py-4 px-6 text-sm font-display2 md:px-6 lg:px-10 md:flex ">
+            <span className="w-1/3 flex-1 text-white font-bold text-lg uppercase">{data.cardlabels.nameLabel}</span>
+            <span className="px-6 text-white font-bold text-lg uppercase">{data.cardlabels.countryLabel}</span>
+            <span className="text-white font-bold text-lg uppercase">{data.cardlabels.badgeLabel}</span>
+          </div> 
+        }
+
         {data.items && (
           data.items.map(function (block, index) {
             return <Card

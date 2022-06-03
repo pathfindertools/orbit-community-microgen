@@ -1089,6 +1089,12 @@ type PagesBlocksLeaderCardsBackground {
   ornaments: [PagesBlocksLeaderCardsBackgroundOrnaments]
 }
 
+type PagesBlocksLeaderCardsCardlabels {
+  nameLabel: String
+  countryLabel: String
+  badgeLabel: String
+}
+
 type PagesBlocksLeaderCardsItems {
   imageSrc: String
   name: String
@@ -1101,6 +1107,7 @@ type PagesBlocksLeaderCards {
   background: PagesBlocksLeaderCardsBackground
   rule: String
   headline: String
+  cardlabels: PagesBlocksLeaderCardsCardlabels
   items: [PagesBlocksLeaderCardsItems]
   rule2: String
   navigationLabel: String
@@ -2188,6 +2195,12 @@ input PagesBlocksLeaderCardsBackgroundMutation {
   ornaments: [PagesBlocksLeaderCardsBackgroundOrnamentsMutation]
 }
 
+input PagesBlocksLeaderCardsCardlabelsMutation {
+  nameLabel: String
+  countryLabel: String
+  badgeLabel: String
+}
+
 input PagesBlocksLeaderCardsItemsMutation {
   imageSrc: String
   name: String
@@ -2200,6 +2213,7 @@ input PagesBlocksLeaderCardsMutation {
   background: PagesBlocksLeaderCardsBackgroundMutation
   rule: String
   headline: String
+  cardlabels: PagesBlocksLeaderCardsCardlabelsMutation
   items: [PagesBlocksLeaderCardsItemsMutation]
   rule2: String
   navigationLabel: String

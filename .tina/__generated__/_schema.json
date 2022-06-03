@@ -20632,6 +20632,58 @@
                   ]
                 },
                 {
+                  "label": "Card Labels",
+                  "name": "cardlabels",
+                  "type": "object",
+                  "ui": {
+                    "component": "group"
+                  },
+                  "fields": [
+                    {
+                      "label": "Name Label",
+                      "name": "nameLabel",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "leaderCards",
+                        "cardlabels",
+                        "nameLabel"
+                      ]
+                    },
+                    {
+                      "label": "Country Label",
+                      "name": "countryLabel",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "leaderCards",
+                        "cardlabels",
+                        "countryLabel"
+                      ]
+                    },
+                    {
+                      "label": "Badge Label",
+                      "name": "badgeLabel",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "leaderCards",
+                        "cardlabels",
+                        "badgeLabel"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "leaderCards",
+                    "cardlabels"
+                  ]
+                },
+                {
                   "label": "Cards",
                   "name": "items",
                   "type": "object",
