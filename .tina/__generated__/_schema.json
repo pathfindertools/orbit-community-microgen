@@ -1512,6 +1512,10 @@
                   "value": "Red Hat Mono:wght@400;700"
                 },
                 {
+                  "label": "Righteous",
+                  "value": "Righteous:wght@400"
+                },
+                {
                   "label": "Roboto Condensed",
                   "value": "Roboto Condensed:wght@400;700"
                 },
@@ -3237,6 +3241,10 @@
                 {
                   "label": "Red Hat Mono",
                   "value": "Red Hat Mono:wght@400;700"
+                },
+                {
+                  "label": "Righteous",
+                  "value": "Righteous:wght@400"
                 },
                 {
                   "label": "Roboto Condensed",
@@ -4966,6 +4974,10 @@
                   "value": "Red Hat Mono:wght@400;700"
                 },
                 {
+                  "label": "Righteous",
+                  "value": "Righteous:wght@400"
+                },
+                {
                   "label": "Roboto Condensed",
                   "value": "Roboto Condensed:wght@400;700"
                 },
@@ -6691,6 +6703,10 @@
                 {
                   "label": "Red Hat Mono",
                   "value": "Red Hat Mono:wght@400;700"
+                },
+                {
+                  "label": "Righteous",
+                  "value": "Righteous:wght@400"
                 },
                 {
                   "label": "Roboto Condensed",
@@ -20629,6 +20645,58 @@
                     "blocks",
                     "leaderCards",
                     "headline"
+                  ]
+                },
+                {
+                  "label": "Card Labels",
+                  "name": "cardlabels",
+                  "type": "object",
+                  "ui": {
+                    "component": "group"
+                  },
+                  "fields": [
+                    {
+                      "label": "Name Label",
+                      "name": "nameLabel",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "leaderCards",
+                        "cardlabels",
+                        "nameLabel"
+                      ]
+                    },
+                    {
+                      "label": "Country Label",
+                      "name": "countryLabel",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "leaderCards",
+                        "cardlabels",
+                        "countryLabel"
+                      ]
+                    },
+                    {
+                      "label": "Badge Label",
+                      "name": "badgeLabel",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "leaderCards",
+                        "cardlabels",
+                        "badgeLabel"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "leaderCards",
+                    "cardlabels"
                   ]
                 },
                 {

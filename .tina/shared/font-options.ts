@@ -326,6 +326,7 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Red Hat Display", "value": "Red Hat Display:wght@400;700" },
   { "label": "Red Hat Mono Light", "value": "Red Hat Mono:wght@300;500" },
   { "label": "Red Hat Mono", "value": "Red Hat Mono:wght@400;700" },
+  { "label": "Righteous", "value": "Righteous:wght@400" },
   { "label": "Roboto Condensed", "value": "Roboto Condensed:wght@400;700" },
   { "label": "Roboto Extra Light", "value": "Roboto:wght@100;300" },
   { "label": "Roboto Heavy", "value": "Roboto:wght@900" },

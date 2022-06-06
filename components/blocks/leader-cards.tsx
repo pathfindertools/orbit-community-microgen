@@ -50,10 +50,26 @@ export const LeaderCards = ({ data, parentField = "" }) => {
     <Section className="p-20" background={data.background} navigationLabel={data.navigationLabel}>
       <div className="">
         <div className={tw.content}>
-          {data.headline && <h2 className="font-bold font-display2 text-xl uppercase text-center text-white mb-8" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
+          {data.headline && <h2 className="font-bold font-2 text-5xl uppercase text-center text-white mb-8" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
         </div>
       </div>
-      <div className="leader-cards grid gap-8 grid-cols-2 sm:gap-4 sm:grid-cols-1">
+      <div className="leader-cards grid gap-8 grid-cols-2 sm:gap-4 sm:grid-cols-1 mx-auto max-w-desktop-full">
+        
+        { data.headline && 
+          <div className="flex bg-black items-center px-10 md:px-6 py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
+            <span className="w-1/3 flex-1">{data.cardlabels.nameLabel}</span>
+            <span className="px-6 ">{data.cardlabels.countryLabel}</span>
+            <span>{data.cardlabels.badgeLabel}</span>
+          </div> 
+        }
+        { data.headline && 
+          <div className="flex sm:hidden bg-black items-center px-10 py-4 md:px-6 sm:py-4 sm:px-6 text-md font-2 text-white font-bold uppercase">
+            <span className="w-1/3 flex-1">{data.cardlabels.nameLabel}</span>
+            <span className="px-6 ">{data.cardlabels.countryLabel}</span>
+            <span>{data.cardlabels.badgeLabel}</span>
+          </div> 
+        }
+
         {data.items && (
           data.items.map(function (block, index) {
             return <Card

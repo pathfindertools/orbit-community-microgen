@@ -34,6 +34,31 @@ export const leaderCardsBlockSchema: TinaTemplate = {
       type: "string",
     },
     {
+      label: "Card Labels",
+      name: "cardlabels",
+      type: "object",
+      ui: {
+        component: 'group',
+      },
+      fields: [
+        {
+          label: "Name Label",
+          name: "nameLabel",
+          type: "string"
+        },
+        {
+          label: "Country Label",
+          name: "countryLabel",
+          type: "string"
+        },
+        {
+          label: "Badge Label",
+          name: "badgeLabel",
+          type: "string"
+        }
+      ],
+    },
+    {
       label: "Cards",
       name: "items",
       type: "object",

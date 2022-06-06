@@ -34,7 +34,7 @@ blocks:
   - background:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
-    headline: This is the main headline
+    headline: BECOME A CADET (INDIVIDUAL CONTRIBUTOR)
     body: >
       You can apply for Orbit Community Program if you are a an individual,
       partner, or collaborator who is interested in helping us grow the
@@ -91,7 +91,11 @@ blocks:
       fillStyles: bg-gray-dark
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
-    headline: This is the main headline
+    headline: Active Members
+    cardlabels:
+      nameLabel: Name
+      countryLabel: Country
+      badgeLabel: Tier
     items:
       - name: Full Name
         twitter: Twitter Handle
