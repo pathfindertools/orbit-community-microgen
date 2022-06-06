@@ -17,8 +17,8 @@
   "fonts": {
     "font1": "Rubik:wght@900",
     "font2": "Rubik:wght@300;500",
-    "font3": "Rufina:wght@400;700",
-    "font4": "IBM Plex Mono:wght@400;700"
+    "font3": "Rubik:wght@400;700",
+    "font4": "Righteous:wght@400"
   },
   "sizeLeading": {
     "textXs": "10/20",
