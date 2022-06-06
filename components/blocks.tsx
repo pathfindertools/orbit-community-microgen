@@ -8,6 +8,8 @@ import { TailwindFeature } from "./blocks/tailwind-feature";
 import { TailwindCards } from "./blocks/tailwind-cards";
 import { LeaderCards } from "./blocks/leader-cards";
 import { Modals } from "./blocks/modals";
+import { Marquee } from "./blocks/marquee";
+
 
 export const Blocks = (props: Pages | Global) => {
   return (
@@ -74,6 +76,13 @@ export const Blocks = (props: Pages | Global) => {
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
                     <Modals data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+                
+              case "PagesBlocksMarquee":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
+                    <Marquee data={block} parentField={`blocks.${i}`} />
                   </div>
                 );
               default:
