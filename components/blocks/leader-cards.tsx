@@ -53,17 +53,17 @@ export const LeaderCards = ({ data, parentField = "" }) => {
           {data.headline && <h2 className="font-bold font-display2 text-xl uppercase text-center text-white mb-8" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
         </div>
       </div>
-      <div className="leader-cards grid gap-8 grid-cols-2 sm:gap-4 sm:grid-cols-1">
+      <div className="leader-cards grid gap-8 grid-cols-2 sm:gap-4 sm:grid-cols-1 mx-auto max-w-desktop-full">
         
         { data.headline && 
-          <div className="flex bg-black items-center py-4 px-6 text-sm font-display2 md:px-6 lg:px-10">
+          <div className="flex bg-black items-center px-10 md:px-6 py-4 sm:px-6 text-sm font-display2  ">
             <span className="w-1/3 flex-1 text-white font-bold text-lg uppercase">{data.cardlabels.nameLabel}</span>
             <span className="px-6 text-white font-bold text-lg uppercase">{data.cardlabels.countryLabel}</span>
             <span className="text-white font-bold text-lg uppercase">{data.cardlabels.badgeLabel}</span>
           </div> 
         }
         { data.headline && 
-          <div className="hidden bg-black items-center py-4 px-6 text-sm font-display2 md:px-6 lg:px-10 md:flex ">
+          <div className="flex sm:hidden bg-black items-center px-10 py-4 md:px-6 sm:py-4 sm:px-6 text-sm">
             <span className="w-1/3 flex-1 text-white font-bold text-lg uppercase">{data.cardlabels.nameLabel}</span>
             <span className="px-6 text-white font-bold text-lg uppercase">{data.cardlabels.countryLabel}</span>
             <span className="text-white font-bold text-lg uppercase">{data.cardlabels.badgeLabel}</span>
