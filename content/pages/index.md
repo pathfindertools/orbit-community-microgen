@@ -46,6 +46,10 @@ blocks:
     navigationLabel: More Info
     _template: tailwindFeature
   - background:
+      fillStyles: bg-primary
+    marqueeText: How to Apply
+    _template: marquee
+  - background:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
     headline: BECOME A CADET (INDIVIDUAL CONTRIBUTOR)
@@ -102,6 +106,10 @@ blocks:
           representing Filecoin Ecosystem at public conferences.
     _template: modals
   - background:
+      fillStyles: bg-accent1
+    marqueeText: Our Leaderboard
+    _template: marquee
+  - background:
       fillStyles: bg-gray-dark
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
@@ -143,6 +151,10 @@ blocks:
       </div>
     navigationLabel: Apply Now
     _template: embed
+  - background:
+      fillStyles: bg-accent2
+    marqueeText: Apply Here
+    _template: marquee
 meta:
   pageTitle: Microgen
   pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.

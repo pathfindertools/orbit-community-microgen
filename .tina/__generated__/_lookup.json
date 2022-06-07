@@ -55,7 +55,8 @@
       "tailwindCards": "PagesBlocksTailwindCards",
       "leaderCards": "PagesBlocksLeaderCards",
       "modals": "PagesBlocksModals",
-      "hero": "PagesBlocksHero"
+      "hero": "PagesBlocksHero",
+      "marquee": "PagesBlocksMarquee"
     }
   },
   "PagesDocument": {

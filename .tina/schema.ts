@@ -10,6 +10,8 @@ import { tailwindCardsBlockSchema } from "./tailwind-cards";
 import { leaderCardsBlockSchema } from "./leader-cards";
 import { modalsBlockSchema } from "./modals";
 import { heroBlockSchema } from "./hero";
+import { marqueeBlockSchema } from "./marquee";
+
 
 export default defineSchema({
   collections: [
@@ -41,6 +43,7 @@ export default defineSchema({
             leaderCardsBlockSchema,
             modalsBlockSchema,
             heroBlockSchema,
+            marqueeBlockSchema,
           ],
         },
         {
