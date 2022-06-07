@@ -65,16 +65,6 @@ export const Hero = ({ data, parentField = ""  }) => {
       width: 66px;
       height: 77px;
     }
-    .logo:before {
-      content: '';
-      @apply absolute bg-blue-a25 rounded-full;
-      left: 0;
-      right: 0;
-      top: 2px;
-      bottom: 10px;
-      z-index: -1;
-      backdrop-filter: blur(2px);
-    }
     @media (min-width: 1024px) {
       .logo {
         width: 166px;
@@ -109,6 +99,7 @@ export const Hero = ({ data, parentField = ""  }) => {
           <div className="bg-top bg-cover absolute inset-0" style={{backgroundImage: "url('./img/grid.svg')"}}></div>
         </div>
         <div className="relative mx-auto mb-10 logo">
+          <div className="absolute bg-primary rounded-full left-0 right-0 top-1 bottom-1 opacity-20 -z-1" style={{backdropFilter: "blur(2px)"}}></div>
           <img className="m-auto mb-16" src="./img/echo-logo.svg" />
         </div>
         <div className="text-center mb-12">
@@ -117,9 +108,9 @@ export const Hero = ({ data, parentField = ""  }) => {
           <img className="inline-block mx-8 my-8 w-14 h-14" src="./img/libp2p-logo.svg" alt="libp2p logo"/>
         </div>
         <h1 className="text-white leading-none uppercase mb-20 text-center">
-          <div className="mb-3 mb-5 sm:text-base text-2xl">Welcome to the</div>
-          <div className="mb-3 mb-5 sm:text-xl text-4xl">orbit community</div>
-          <div className="sm:text-base text-2xl">program</div>
+          <div className="mb-3 mb-5 text-4xl font-1 font-bold sm:text-base ">Welcome to the</div>
+          <div className="mb-3 mb-5 text-6xl font-3 sm:text-xl">orbit community</div>
+          <div className="text-4xl font-1 font-bold sm:text-base ">program</div>
         </h1>
         
         <div className={`flex w-full justify-center gap-16`}>
@@ -127,13 +118,14 @@ export const Hero = ({ data, parentField = ""  }) => {
             data.buttons.map(function (button, index) {
               const element = (
                   <a
-                    className="relative flex text-white font-bold border-4 rounded-full w-24 h-24 bg-accent1 transition-colors hover:bg-accent2"
+                    className="relative flex text-white font-bold border-4 rounded-full w-24 h-24 px-6 hover:bg-accent2 transition-colors"
                     href={button.link}
                     target={linkTarget(button.link)}
                     key={index}
                     data-tinafield={`${parentField}.${index}`}
                   >
-                    <span className="block text-center m-auto px-4 uppercase font-display2 leading-normal text-xs">
+                    <div className="absolute inset-0 rounded-full bg-primary opacity-50 -z-1"></div>
+                    <span className="block text-center m-auto uppercase font-2 font-bold text-xs leading-normal">
                       { button.label }
                     </span>
                   </a>

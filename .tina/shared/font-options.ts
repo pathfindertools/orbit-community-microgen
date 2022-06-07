@@ -347,6 +347,7 @@ export const fontOptions: {label: string, value: string}[] = [
   { "label": "Rubik Heavy", "value": "Rubik:wght@900" },
   { "label": "Rubik Light", "value": "Rubik:wght@300;500" },
   { "label": "Rubik", "value": "Rubik:wght@400;700" },
+  { "label": "Rubik Mono", "value": "Rubik Mono One:wght@400" },
   { "label": "Rufina", "value": "Rufina:wght@400;700" },
   { "label": "Russo One", "value": "Russo One:wght@400" },
   { "label": "Saira Condensed Extra Light", "value": "Saira Condensed:wght@100;300" },

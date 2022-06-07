@@ -1596,6 +1596,10 @@
                   "value": "Rubik:wght@400;700"
                 },
                 {
+                  "label": "Rubik Mono",
+                  "value": "Rubik Mono One:wght@400"
+                },
+                {
                   "label": "Rufina",
                   "value": "Rufina:wght@400;700"
                 },
@@ -3325,6 +3329,10 @@
                 {
                   "label": "Rubik",
                   "value": "Rubik:wght@400;700"
+                },
+                {
+                  "label": "Rubik Mono",
+                  "value": "Rubik Mono One:wght@400"
                 },
                 {
                   "label": "Rufina",
@@ -5058,6 +5066,10 @@
                   "value": "Rubik:wght@400;700"
                 },
                 {
+                  "label": "Rubik Mono",
+                  "value": "Rubik Mono One:wght@400"
+                },
+                {
                   "label": "Rufina",
                   "value": "Rufina:wght@400;700"
                 },
@@ -6787,6 +6799,10 @@
                 {
                   "label": "Rubik",
                   "value": "Rubik:wght@400;700"
+                },
+                {
+                  "label": "Rubik Mono",
+                  "value": "Rubik Mono One:wght@400"
                 },
                 {
                   "label": "Rufina",

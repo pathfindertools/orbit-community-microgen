@@ -15,8 +15,8 @@ const Modal = ({ data, parentField = "", className }) => {
       </button>
       <div className={`flex flex-col ${data.width}`}>
         <div className={`markdown items-center`} data-tinafield={`${parentField}.body`}>
-          <p className="font-3 text-white text-xl">
-            <span className="text-accent2 text-xl font-2 mr-2 font-bold uppercase">{data.headline} </span>
+          <p className="font-1 font-bold text-white text-xl">
+            <span className="text-accent2 font-2 uppercase">{data.headline} </span>
             {data.body}
           </p>
         </div>
@@ -28,12 +28,12 @@ const Modal = ({ data, parentField = "", className }) => {
 export const Modals = ({ data, parentField = "" }) => {
   const [activeModal, setActiveModal] = useState(null)
   const twButtons = "flex flex-wrap gap-12 w-full justify-center"
-  const twButton = "relative flex text-white uppercase border-4 border-primary font-1 font-bold rounded-full w-28 h-28 bg-accent1 transition-colors hover:border-accent2"
-  const twButtonSpan = "block text-center m-auto font-1 leading-normal text-xs"
+  const twButton = "relative flex text-white uppercase border-4 border-primary font-bold rounded-full w-28 h-28 bg-accent1 transition-colors hover:border-accent2"
+  const twButtonSpan = "block text-center m-auto font-2 leading-normal text-xs"
 
   return (
     <Section className="p-20" background={data.background} navigationLabel={data.navigationLabel}>
-      <div className="max-w-desktop-full mx-auto border-4 border-primary bg-accent1 text-sm leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-xl">
+      <div className="max-w-desktop-full mx-auto border-4 border-primary bg-accent1 text-sm leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-glow">
         <Content
           label={data.label}
           headline={data.headline}
@@ -43,7 +43,7 @@ export const Modals = ({ data, parentField = "" }) => {
           labelStyles=""
           headlineStyles="text-white text-2xl font-1 font-bold uppercase text-center mb-8"
           subheadStyles=""
-          textStyles="text-white text-xl font-3 font-bold mb-8"
+          textStyles="text-white text-xl font-1 font-bold mb-8"
           width="w-full"
           parentField={parentField} alignment={undefined} order={undefined}        />
         <div className={twButtons}>

@@ -23,7 +23,7 @@ const Card = ({ data, index, parentField = ""  }) => {
       </div>
       <div className="flex w-full">
         <div className="flex-1 w-1/2">
-          {data.name && <h2 className="font-bold text-lg" data-tinafield={`${parentField}.${index}.name`}>{data.name}</h2>}
+          {data.name && <h2 className="font-bold text-md" data-tinafield={`${parentField}.${index}.name`}>{data.name}</h2>}
           {data.twitter && (
             <a className="text-md"
               data-tinafield={`${parentField}.${index}.twitter`}
@@ -50,7 +50,7 @@ export const LeaderCards = ({ data, parentField = "" }) => {
     <Section className="p-20" background={data.background} navigationLabel={data.navigationLabel}>
       <div className="">
         <div className={tw.content}>
-          {data.headline && <h2 className="font-bold font-2 text-5xl uppercase text-center text-white mb-8" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
+          {data.headline && <h2 className="font-bold font-2 text-3xl uppercase text-center text-white mb-8" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
         </div>
       </div>
       <div className="leader-cards grid gap-8 grid-cols-2 sm:gap-4 sm:grid-cols-1 mx-auto max-w-desktop-full">

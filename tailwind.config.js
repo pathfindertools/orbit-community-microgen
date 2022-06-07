@@ -123,6 +123,9 @@ module.exports = {
         '3': ["var(--font3)", "sans-serif"],
         '4': ["var(--font4)", "sans-serif"]
       },
+      boxShadow: {
+        glow: '0 0 15px 0 rgba(255, 255, 255, 1)'
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],

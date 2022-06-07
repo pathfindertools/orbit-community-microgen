@@ -10,16 +10,16 @@ blocks:
   - tailwind:
       section: p-20
       wrap: >-
-        max-w-desktop-full mx-auto border-4 border-primary bg-accent1 text-sm
-        leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-xl"
+        max-w-desktop-full mx-auto bg-accent1 text-lg rounded-3xl p-16 border-4
+        border-primary shadow-xl shadow-glow
       imageWrap: ''
       image: ''
       contentWrap: ''
       content: ''
       label: ''
-      headline: text-white text-2xl font-1 font-bold uppercase text-center mb-8
+      headline: text-white text-2xl font-2 font-bold uppercase text-center mb-8
       subhead: ''
-      text: text-white text-xl font-3 font-bold mb-8
+      text: text-white text-xl font-1 font-bold mb-8
       buttons: ''
     background:
       fillStyles: bg-accent1
@@ -105,6 +105,45 @@ blocks:
           mentor and a leader to Cadets, Ensigns, and Lieutenants while
           representing Filecoin Ecosystem at public conferences.
     _template: modals
+  - style:
+      minHeight: min-h-0
+      fullWidth: true
+      padding: pt-10 pb-5 pr-10 pl-10
+    background:
+      fillStyles: bg-accent1
+    markup: |-
+      <div class="my-8 text-center">
+            <img class="inline-block mr-12 animate-pulse" src="./img/bubble-arrow-down.svg">
+            <img class="inline-block mr-12 animate-pulse" src="./img/bubble-arrow-down.svg">
+            <img class="inline-block animate-pulse" src="./img/bubble-arrow-down.svg">
+          </div>
+    _template: embed
+  - tailwind:
+      section: p-20
+      wrap: >-
+        max-w-desktop-full mx-auto bg-accent1 text-lg rounded-3xl p-16 border-4
+        border-accent2 shadow-xl shadow-glow
+      imageWrap: ''
+      image: ''
+      contentWrap: ''
+      content: ''
+      label: ''
+      headline: text-white text-2xl font-2 font-bold uppercase text-center mb-8
+      subhead: ''
+      text: text-white text-xl font-1 font-bold mb-8
+      buttons: ''
+    background:
+      fillStyles: bg-accent1
+    label: ''
+    headline: BECOME A SPACESHIP (FOR BUSINESS ORGANIZATIONS)
+    subhead: ''
+    body: >
+      As a business, you can become a Spaceship as a part of our Orbit Community
+      Program who is interested in helping us grow the Community. As a
+      Spaceship, you will be showcasing new use cases for Filecoin, IPFS, Libp2p
+      participate, have the opportunity to speak at and sponsor conferences at a
+      high level, introduce new collaborators, and so much more.
+    _template: tailwindFeature
   - background:
       fillStyles: bg-accent1
     marqueeText: Our Leaderboard
