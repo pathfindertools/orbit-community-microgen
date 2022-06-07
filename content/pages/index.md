@@ -51,7 +51,8 @@ blocks:
     _template: marquee
   - background:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
+        https://res.cloudinary.com/protocolai/image/upload/v1654635661/orbit-community/blue-stars_cmztla.jpg
+      position: object-bottom
     headline: BECOME A CADET (INDIVIDUAL CONTRIBUTOR)
     body: >
       You can apply for Orbit Community Program if you are a an individual,
@@ -105,35 +106,28 @@ blocks:
           mentor and a leader to Cadets, Ensigns, and Lieutenants while
           representing Filecoin Ecosystem at public conferences.
     _template: modals
-  - style:
-      minHeight: min-h-0
-      fullWidth: true
-      padding: pt-10 pb-5 pr-10 pl-10
-    background:
-      fillStyles: bg-accent1
-    markup: |-
-      <div class="my-8 text-center">
-            <img class="inline-block mr-12 animate-pulse" src="./img/bubble-arrow-down.svg">
-            <img class="inline-block mr-12 animate-pulse" src="./img/bubble-arrow-down.svg">
-            <img class="inline-block animate-pulse" src="./img/bubble-arrow-down.svg">
-          </div>
-    _template: embed
   - tailwind:
-      section: p-20
-      wrap: >-
+      section: p-20 pt-0
+      wrap: ''
+      imageWrap: text-center
+      image: inline-block mb-20 animate-pulse h-20
+      contentWrap: >-
         max-w-desktop-full mx-auto bg-accent1 text-lg rounded-3xl p-16 border-4
         border-accent2 shadow-xl shadow-glow
-      imageWrap: ''
-      image: ''
-      contentWrap: ''
       content: ''
       label: ''
       headline: text-white text-2xl font-2 font-bold uppercase text-center mb-8
       subhead: ''
       text: text-white text-xl font-1 font-bold mb-8
       buttons: ''
+    image:
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1654636441/orbit-community/arrows_gbz9gc.svg
     background:
       fillStyles: bg-accent1
+      src: >-
+        https://res.cloudinary.com/protocolai/image/upload/v1654636208/orbit-community/blue-red-stars_hff6cc.jpg
+      position: object-top
     label: ''
     headline: BECOME A SPACESHIP (FOR BUSINESS ORGANIZATIONS)
     subhead: ''
@@ -151,25 +145,93 @@ blocks:
   - background:
       fillStyles: bg-gray-dark
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
+        https://res.cloudinary.com/protocolai/image/upload/v1654635661/orbit-community/blue-stars_cmztla.jpg
     headline: Active Members
     cardlabels:
       nameLabel: Name
       countryLabel: Country
       badgeLabel: Tier
     items:
-      - name: Full Name
-        twitter: Twitter Handle
+      - name: Ammar Husami
+        twitter: husamia
+        country: us
+        badge: cadet
+      - name: Ken Labs
+        twitter: KenLabs_Web3
+        country: china
+        badge: spaceship
+      - name: Blockchain Denver
+        twitter: du_web3
+        country: us
+        badge: cadet
+      - name: Martin Kyanja
+        twitter: kyanja_m
+        country: tanzania
+        badge: spaceship
+      - name: Brian Ahimbisibwe
+        twitter: ahimbis07260494
+        country: uganda
+        badge: cadet
+      - name: New Web Group
+        twitter: newwebgroup
+        country: china
+        badge: spaceship
+      - name: ET.Link
+        twitter: EtlinkCryptoMin
+        country: china
+        badge: spaceship
+      - name: Open Gate
+        twitter: OpenGateVIP
+        country: uk
+        badge: spaceship
+      - name: Ethereum Nigeria
+        twitter: EthereumNigeria
+        country: nigeria
+        badge: spaceship
+      - name: Sam Tang
+        twitter: samueltang06
+        country: us
+        badge: cadet
+      - name: Filedrive Labs
+        twitter: filedrive1
+        country: china
+        badge: spaceship
+      - name: Secured Finance
+        twitter: FinanceSecured
+        country: germany
+        badge: spaceship
+      - name: Filswan
+        twitter: 0xfilswan
+        country: us
+        badge: spaceship
+      - name: Sinso
+        twitter: sinsotech
         country: singapore
         badge: spaceship
-      - name: Name
-        twitter: Twitter
+      - name: Harsh Kumar
+        twitter: spectre_harsh07
+        country: india
+        badge: cadet
+      - name: Tippi Fifestarr
+        twitter: fifestarr
         country: us
         badge: cadet
-      - name: Name
-        twitter: Twitter
-        country: us
+      - name: IPFS Force
+        twitter: force_ipfs
+        country: china
+        badge: spaceship
+      - name: Wengi Web
+        twitter: wengi_web
+        country: kenya
+        badge: spaceship
+      - name: Irene Yoon
+        twitter: ireney2022
+        country: south-korea
         badge: cadet
+      - name: Zondax
+        twitter: _zondax_
+        country: switzerland
+        badge: spaceship
     _template: leaderCards
   - style:
       minHeight: min-h-100

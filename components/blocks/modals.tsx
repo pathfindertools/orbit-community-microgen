@@ -3,7 +3,7 @@ import { Section } from "../section";
 import { Content } from "../content";
 
 const Modal = ({ data, parentField = "", className }) => {
-  const twModal = "w-1/2 bg-accent1 text-white p-16 rounded-3xl border-4 border-primary  sm:px-4"
+  const twModal = "max-w-lg-80 w-full bg-accent1 text-white p-16 rounded-3xl border-4 border-primary sm:px-4"
   const twCloseButton = "absolute top-8 right-8 height-6 width-6"
 
   return (
@@ -57,7 +57,7 @@ export const Modals = ({ data, parentField = "" }) => {
         </div>
       </div>
       {activeModal !== null && (
-        <div className="fixed inset-0 z-10 border-8" onClick={() => setActiveModal(null)}>
+        <div className="fixed inset-0 z-10 p-20" onClick={() => setActiveModal(null)}>
           <div className="absolute inset-0 bg-accent1 opacity-80"></div>
           <Modal
             data={data.items[activeModal]}

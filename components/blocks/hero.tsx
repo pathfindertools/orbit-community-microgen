@@ -86,7 +86,8 @@ export const Hero = ({ data, parentField = ""  }) => {
       <style>{css}</style>
       <div className="mx-auto">
         <div className="absolute inset-0 -z-1">
-          <div className="absolute inset-0 bg-accent1">
+          <div className="absolute inset-0 bg-black">
+            <div className="absolute inset-0 bg-accent1 opacity-70"></div>
             <div id="space">
               <div className="stars"></div>
               <div className="stars"></div>
