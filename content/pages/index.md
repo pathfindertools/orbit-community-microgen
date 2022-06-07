@@ -1,36 +1,50 @@
 ---
 draft: true
 blocks:
-  - style:
-      alignment: 'flex-row-reverse text-left items-center '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: pt-40 pb-16 pr-7 pl-20
-      featureImage: object-center object-cover to-edge
-      imagePadding: pt-0 pb-0 pr-0 pl-0
-      labelStyles: text-white font-2 text-xl mb-0 font-bold
-      headlineStyles: text-primary font-1 text-6xl mb-0 font-bold
-      subheadStyles: text-gray font-1 text-2xl mb-7 font-bold
-      textStyles: 'text-white font-1 text-lg mb-11 '
-      contentOrder: labelHeadingsContent
+  - buttons:
+      - label: Apply Now
+        link: '#apply-now'
+      - label: More Info
+        link: '#more-info'
+    _template: hero
+  - tailwind:
+      section: p-20
+      wrap: >-
+        max-w-desktop-full mx-auto border-4 border-primary bg-accent1 text-sm
+        leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-xl"
+      imageWrap: ''
+      image: ''
+      contentWrap: ''
+      content: ''
+      label: ''
+      headline: text-white text-2xl font-1 font-bold uppercase text-center mb-8
+      subhead: ''
+      text: text-white text-xl font-3 font-bold mb-8
+      buttons: ''
     background:
-      fillStyles: from-accent1 to-black bg-gradient-to-br
-    image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1649882497/microgen/Hall_of_Fame_grccee_k39etu.png
-      alt: Illustration of space shuttles
+      fillStyles: bg-accent1
     label: ''
-    headline: Orbit Community
-    subhead: A site builder for Web 3.0
-    body: |
-      Make [modern web 3.0](#) ready websites with a real-time visual editor.
-    buttons:
-      - label: Get Started
-        link: 'https://github.com/filecoin-project/microgen'
-        type: solid
-        buttonFillStyles: bg-primary
-        textColor: white
-        backgroundColor: black
-    _template: feature
+    headline: Welcome to the Orbit Community Program!
+    subhead: ''
+    body: >
+      Filecoin Orbit 2021 was a major celebration marking the first anniversary
+      of Mainnet Liftoff, and a look ahead to the future of the ecosystem. For
+      one week, the global Filecoin community gathered at conferences,
+      workshops, and meetups—both virtual and offline—held across the globe,
+      from Italy to China, Nigeria to Japan, and more.
+
+
+      Now launching is the Orbit Community Program, the next step towards
+      building a thriving, engaged community, and a great way to dive into the
+      deep end of the Filecoin ecosystem. Participants will help amplify the
+      voice of Filecoin, IPFS, and libp2p in the web3 community (both online and
+      offline!), organize meetups and events, and create content and educational
+      resources. Whether you're a developer or a non-technical supporter, new to
+      Filecoin, or a regular contributor, all that's required is an interest in
+      advancing the mission to preserve humanity's most important information
+      through events and content like Orbit.
+    navigationLabel: More Info
+    _template: tailwindFeature
   - background:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1651180871/orbit-community/bluestars_lg0dxn.jpg
@@ -110,6 +124,25 @@ blocks:
         country: us
         badge: cadet
     _template: leaderCards
+  - style:
+      minHeight: min-h-100
+      fullWidth: true
+      padding: pt-0 pb-0 pr-0 pl-0
+    background:
+      fillStyles: bg-accent1
+    markup: |-
+      <div class="p-0 flex">
+        <div class="border-accent2 border-4 border-l-0 border-r-2 w-1/2">
+          <div data-tf-widget="Dv6FWzlr" data-tf-iframe-props="title=Orbit - Cadet App" data-tf-medium="snippet" style="width:100%;height:400px;"></div>
+          <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
+        <div class="border-accent2 border-4 border-r-0 border-l-2 w-1/2">
+          <div data-tf-widget="XgSjcHyz" data-tf-iframe-props="title=Orbit - Spaceship App" data-tf-medium="snippet" style="width:100%;height:400px;"></div>
+          <script src="//embed.typeform.com/next/embed.js"></script>
+        </div>
+      </div>
+    navigationLabel: Apply Now
+    _template: embed
 meta:
   pageTitle: Microgen
   pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.

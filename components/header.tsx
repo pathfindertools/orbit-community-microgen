@@ -70,7 +70,7 @@ export const Header = ({
         <div className={`max-w-desktop-full mx-auto ${nav?.padding}`}>
           
           {/* Desktop Nav */}
-          <div className="flex items-center sm:hidden">
+          {/* <div className="flex items-center sm:hidden">
             <Logo className="flex-none" />
             <ul style={navStyles} className={`${nav.navTypeStyle} ${nav.navAlignment} flex-grow list-none sm:hidden`}>
               {navList(blocks)?.map(function (item, index) {
@@ -88,11 +88,11 @@ export const Header = ({
                 )
               })}
             </ul>
-          </div>
+          </div> */}
 
           {/* Mobile Nav */}
           <Logo className={`absolute top-4 left-4 hidden sm:block`} />
-          <div className="absolute top-0 p-4 right-0 hidden sm:block" onClick={() => setNavOpen(!navOpen)}>
+          {/* <div className="absolute top-0 p-4 right-0 hidden sm:block" onClick={() => setNavOpen(!navOpen)}>
             <Burger color="white" isOpen={navOpen}  />
           </div>
           <ul style={navStyles} className={`${navClasses} ${nav.navTypeStyle} ${nav.navAlignment} flex-grow list-none hidden sm:block mt-16`}>
@@ -112,7 +112,7 @@ export const Header = ({
                 </li>
               )
             })}
-          </ul>
+          </ul> */}
 
         </div>
       </div>

@@ -21294,6 +21294,62 @@
                 "blocks",
                 "modals"
               ]
+            },
+            {
+              "name": "hero",
+              "label": "Hero",
+              "fields": [
+                {
+                  "type": "object",
+                  "label": "Buttons",
+                  "name": "buttons",
+                  "list": true,
+                  "ui": {
+                    "component": "itemListField",
+                    "defaultItem": {
+                      "label": "Button Label",
+                      "link": "/"
+                    }
+                  },
+                  "fields": [
+                    {
+                      "label": "Label",
+                      "name": "label",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero",
+                        "buttons",
+                        "label"
+                      ]
+                    },
+                    {
+                      "label": "Link",
+                      "name": "link",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "hero",
+                        "buttons",
+                        "link"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "hero",
+                    "buttons"
+                  ]
+                }
+              ],
+              "namespace": [
+                "pages",
+                "blocks",
+                "hero"
+              ]
             }
           ],
           "namespace": [

@@ -17,7 +17,7 @@
   "fonts": {
     "font1": "Rubik:wght@900",
     "font2": "Rubik:wght@300;500",
-    "font3": "Rubik:wght@400;700",
+    "font3": "Righteous:wght@400",
     "font4": "Righteous:wght@400"
   },
   "sizeLeading": {
@@ -35,23 +35,17 @@
     "text8xl": "96/120"
   },
   "links": {
-    "color": "primary"
+    "color": "white"
   },
   "logo": {
-    "logoType": "Microgen",
+    "logoType": "",
     "logoTypeStyle": "text-white undefined text-base undefined font-bold",
-    "image": "http://res.cloudinary.com/protocolai/image/upload/v1646088242/cryptonet/protocol-logo_ewn4sv.png",
+    "image": "",
     "imageWidth": "48",
     "imageHeight": "48",
     "imageMargin": "24"
   },
   "nav": {
-    "navItems": [
-      {
-        "label": "Nav Item",
-        "link": "/"
-      }
-    ],
     "navAlignment": "text-right",
     "navTypeStyle": "text-white font-1 text-base mb-0 ",
     "navBackgroundColor": "from-primary to-accent2 bg-gradient-to-br",
@@ -60,24 +54,15 @@
   "blocks": [
     {
       "style": {
-        "textAlignment": "text-center",
         "minHeight": "min-h-0",
-        "padding": "pt-10 pb-10 pr-10 pl-10",
-        "width": "normal",
-        "labelStyles": "text-black undefined text-sm mb-0 ",
-        "headlineStyles": "text-black undefined text-5xl mb-0 ",
-        "subheadStyles": "text-black undefined text-3xl mb-0 ",
-        "textStyles": "text-white undefined text-sm mb-0 ",
-        "contentOrder": "labelHeadingsContent"
+        "fullWidth": true,
+        "padding": "pt-20 pb-20 pr-10 pl-10"
       },
       "background": {
-        "fillStyles": "bg-primary"
+        "fillStyles": "bg-accent1"
       },
-      "label": "",
-      "headline": "",
-      "subhead": "",
-      "body": "Made with love by [Protocol Labs](https://protocol.ai)\n",
-      "_template": "banner"
+      "markup": "<section class=\"sm:p-12 px-20 text-white\">\n  <h2 class=\"font-display2 text-sm uppercase mb-8\">Connect with the filecoin community</h2>\n  <div class=\"flex sm:flex-col flex-row w-full\">\n  <ul class=\"sm:w-full w-1/3 sm:mb-6 mb-0 text-sm font-bold pl-12\">\n      <li class=\"mb-6\">\n        <img class=\"float-left -ml-12 w-6\" src=\"./img/icon-calendar.svg\">\n        <a href=\"https://calendar.google.com/calendar/b/6?cid=ZmlsZWNvaW4ub3JnX2o3bW1ldjI0ZzgwcmVsbzU2cHFtMWVsMWUwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20\" target=\"_blank\">Subscribe to our calendar</a>\n      </li>\n      <li>\n        <img class=\"float-left -ml-12 w-6\" src=\"./img/icon-mail.svg\">\n        <a href=\"https://protocol.us20.list-manage.com/subscribe?u=0bc14cd7b6583be73cea72a5d&amp;id=0907dc2a53\" target=\"_blank\">Subscribe to our mailing list</a>\n      </li>\n    </ul>\n    <ul class=\"sm:w-full w-1/3 mb-6 lg:mb-0\">\n      <li>\n        <img class=\"float-left -ml-12\" src=\"./img/icon-slack.svg\">\n        <a href=\"https://filecoin.io/slack\" target=\"_blank\">Filecoin Slack Channel</a>\n      </li>\n    </ul>\n    <ul class=\"sm:w-full w-1/3\">\n      <li class=\"mb-6\">\n        <img class=\"float-left -ml-12\" src=\"./img/icon-twitter.svg\">\n        <a href=\"https://twitter.com/Filecoin\" target=\"_blank\">Filecoin</a>\n      </li>\n      <li class=\"mb-6\">\n        <a href=\"https://fil.org/\" target=\"_blank\">Filecoin Foundation</a>\n      </li>\n      <li class=\"mb-6\">\n        <a href=\"https://ffdweb.org/\" target=\"_blank\">Filecoin Foundation for the Decentralized Web</a>\n      </li>\n      <li>\n        <a href=\"https://ipfs.io/\" target=\"_blank\">IPFS</a>\n      </li>\n    </ul>\n  </div>\n</section>",
+      "_template": "embed"
     }
   ]
 }

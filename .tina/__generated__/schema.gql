@@ -1148,7 +1148,16 @@ type PagesBlocksModals {
   navigationLabel: String
 }
 
-union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards | PagesBlocksLeaderCards | PagesBlocksModals
+type PagesBlocksHeroButtons {
+  label: String
+  link: String
+}
+
+type PagesBlocksHero {
+  buttons: [PagesBlocksHeroButtons]
+}
+
+union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksTailwindFeature | PagesBlocksTailwindCards | PagesBlocksLeaderCards | PagesBlocksModals | PagesBlocksHero
 
 type PagesMeta {
   pageTitle: String
@@ -2254,6 +2263,15 @@ input PagesBlocksModalsMutation {
   navigationLabel: String
 }
 
+input PagesBlocksHeroButtonsMutation {
+  label: String
+  link: String
+}
+
+input PagesBlocksHeroMutation {
+  buttons: [PagesBlocksHeroButtonsMutation]
+}
+
 input PagesBlocksMutation {
   feature: PagesBlocksFeatureMutation
   photoCards: PagesBlocksPhotoCardsMutation
@@ -2264,6 +2282,7 @@ input PagesBlocksMutation {
   tailwindCards: PagesBlocksTailwindCardsMutation
   leaderCards: PagesBlocksLeaderCardsMutation
   modals: PagesBlocksModalsMutation
+  hero: PagesBlocksHeroMutation
 }
 
 input PagesMetaMutation {

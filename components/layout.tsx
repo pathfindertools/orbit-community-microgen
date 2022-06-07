@@ -118,6 +118,9 @@ export const Layout = ({
             .markdown a {
               text-decoration: underline;
             }
+            section p:not(:last-child) {
+              margin-bottom: 2rem;
+            }
           `,
           }}
         />
@@ -145,6 +148,7 @@ export const Layout = ({
         {googleFontsLink(globalData?.fonts) && (
           <link href={googleFontsLink(globalData?.fonts)} rel="stylesheet"></link>
         )}
+        <link rel="stylesheet" href="https://embed.typeform.com/next/css/widget.css"></link>
       </Head>
       <div className={`min-h-screen flex flex-col`}>
         <Header blocks={pageData?.blocks} globalData={globalData} />

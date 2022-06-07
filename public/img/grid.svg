@@ -1,0 +1,43 @@
+<svg width="1460" height="905" viewBox="0 0 1460 905" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.75" filter="url(#filter0_d_389_32)">
+<path d="M12 160L730.132 397.494" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M730.132 655L271.768 905.817" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M730.133 701L489.467 905.851" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M730.132 743L601.311 905.881" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M12 846.494L730.132 609" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M12 316L730.132 440.165" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M12 696.165L730.132 572" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M12.1279 443L730.132 476.976" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1448.26 160L730.131 397.494" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M730.131 655L1187.49 905.817" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M730.131 701L968.8 905.851" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M730.131 743L858.952 905.881" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1448.26 846.494L730.131 609" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1448.26 316L730.131 440.165" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1448.26 696.165L730.131 572" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1448.13 443L730.131 476.976" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M729.133 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M601.311 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M858.953 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M489.467 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M968.801 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M271.768 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1187.49 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M87.0244 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M12.1279 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1370.24 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+<path d="M1448.13 6V906" stroke="#0090FF" stroke-width="3" stroke-miterlimit="10"/>
+</g>
+<defs>
+<filter id="filter0_d_389_32" x="0.62793" y="0" width="1459" height="921.133" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.5 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_389_32"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_389_32" result="shape"/>
+</filter>
+</defs>
+</svg>

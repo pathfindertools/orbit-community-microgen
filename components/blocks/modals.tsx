@@ -33,7 +33,7 @@ export const Modals = ({ data, parentField = "" }) => {
 
   return (
     <Section className="p-20" background={data.background} navigationLabel={data.navigationLabel}>
-      <div className="border-4 border-primary bg-accent1 text-sm leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-xl">
+      <div className="max-w-desktop-full mx-auto border-4 border-primary bg-accent1 text-sm leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-xl">
         <Content
           label={data.label}
           headline={data.headline}

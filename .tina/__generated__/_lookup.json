@@ -54,7 +54,8 @@
       "tailwindFeature": "PagesBlocksTailwindFeature",
       "tailwindCards": "PagesBlocksTailwindCards",
       "leaderCards": "PagesBlocksLeaderCards",
-      "modals": "PagesBlocksModals"
+      "modals": "PagesBlocksModals",
+      "hero": "PagesBlocksHero"
     }
   },
   "PagesDocument": {

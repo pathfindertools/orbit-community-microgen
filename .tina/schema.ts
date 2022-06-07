@@ -9,6 +9,7 @@ import { tailwindFeatureBlockSchema } from "./tailwind-feature";
 import { tailwindCardsBlockSchema } from "./tailwind-cards";
 import { leaderCardsBlockSchema } from "./leader-cards";
 import { modalsBlockSchema } from "./modals";
+import { heroBlockSchema } from "./hero";
 
 export default defineSchema({
   collections: [
@@ -39,6 +40,7 @@ export default defineSchema({
             tailwindCardsBlockSchema,
             leaderCardsBlockSchema,
             modalsBlockSchema,
+            heroBlockSchema,
           ],
         },
         {

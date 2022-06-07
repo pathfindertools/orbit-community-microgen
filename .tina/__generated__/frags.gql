@@ -944,6 +944,13 @@ fragment PagesParts on Pages {
       rule2
       navigationLabel
     }
+    ... on PagesBlocksHero {
+      buttons {
+        __typename
+        label
+        link
+      }
+    }
   }
   meta {
     __typename
