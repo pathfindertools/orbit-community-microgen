@@ -152,83 +152,123 @@ blocks:
       countryLabel: Country
       badgeLabel: Tier
     items:
-      - name: Ammar Husami
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
+        name: Ammar Husami
         twitter: husamia
         country: us
         badge: cadet
-      - name: Ken Labs
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Ken Labs
         twitter: KenLabs_Web3
         country: china
         badge: spaceship
-      - name: Blockchain Denver
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637416/orbit-community/avatar-blockchain-denver_gimuhk.png
+        name: Blockchain Denver
         twitter: du_web3
         country: us
         badge: cadet
-      - name: Martin Kyanja
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Martin Kyanja
         twitter: kyanja_m
         country: tanzania
         badge: spaceship
-      - name: Brian Ahimbisibwe
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Brian Ahimbisibwe
         twitter: ahimbis07260494
         country: uganda
         badge: cadet
-      - name: New Web Group
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: New Web Group
         twitter: newwebgroup
         country: china
         badge: spaceship
-      - name: ET.Link
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: ET.Link
         twitter: EtlinkCryptoMin
         country: china
         badge: spaceship
-      - name: Open Gate
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Open Gate
         twitter: OpenGateVIP
         country: uk
         badge: spaceship
-      - name: Ethereum Nigeria
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Ethereum Nigeria
         twitter: EthereumNigeria
         country: nigeria
         badge: spaceship
-      - name: Sam Tang
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Sam Tang
         twitter: samueltang06
         country: us
         badge: cadet
-      - name: Filedrive Labs
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Filedrive Labs
         twitter: filedrive1
         country: china
         badge: spaceship
-      - name: Secured Finance
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Secured Finance
         twitter: FinanceSecured
         country: germany
         badge: spaceship
-      - name: Filswan
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Filswan
         twitter: 0xfilswan
         country: us
         badge: spaceship
-      - name: Sinso
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Sinso
         twitter: sinsotech
         country: singapore
         badge: spaceship
-      - name: Harsh Kumar
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Harsh Kumar
         twitter: spectre_harsh07
         country: india
         badge: cadet
-      - name: Tippi Fifestarr
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Tippi Fifestarr
         twitter: fifestarr
         country: us
         badge: cadet
-      - name: IPFS Force
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: IPFS Force
         twitter: force_ipfs
         country: china
         badge: spaceship
-      - name: Wengi Web
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Wengi Web
         twitter: wengi_web
         country: kenya
         badge: spaceship
-      - name: Irene Yoon
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Irene Yoon
         twitter: ireney2022
         country: south-korea
         badge: cadet
-      - name: Zondax
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
+        name: Zondax
         twitter: _zondax_
         country: switzerland
         badge: spaceship
