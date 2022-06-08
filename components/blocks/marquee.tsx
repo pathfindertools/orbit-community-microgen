@@ -25,8 +25,8 @@ export const Marquee = ({ data, parentField = "" }) => {
   return (
     <Section className={tw.content} navigationLabel={data.navigationLabel} background={data.background}>
       <style>{css}</style>
-      <div className="relative p-0 h-24 overflow-hidden">
-        <div className="marquee font-3 uppercase text-5xl text-white block absolute top-1/2 left-1/2 whitespace-nowrap transform -translate-y-1/2 -translate-x-1/2 ">
+      <div className="relative p-0 h-24 overflow-hidden sm:h-20">
+        <div className="marquee font-3 uppercase text-5xl text-white sm:text-4xl block absolute top-1/2 left-1/2 whitespace-nowrap transform -translate-y-1/2 -translate-x-1/2 ">
           <span className="inline-block sm:pr-3 pr-5" data-tinafield={`${parentField}.marqueeText`}>{data.marqueeText}</span>
           <span className="inline-block sm:pr-3 pr-5" data-tinafield={`${parentField}.marqueeText`}>{data.marqueeText}</span>
           <span className="inline-block sm:pr-3 pr-5" data-tinafield={`${parentField}.marqueeText`}>{data.marqueeText}</span>

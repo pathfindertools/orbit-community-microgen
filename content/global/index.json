@@ -22,7 +22,7 @@
   },
   "sizeLeading": {
     "textXs": "10/20",
-    "textSm": "10/20",
+    "textSm": "16/28",
     "textMd": "16/35",
     "textLg": "18/35",
     "textXl": "20/35",
@@ -56,12 +56,12 @@
       "style": {
         "minHeight": "min-h-0",
         "fullWidth": true,
-        "padding": "pt-20 pb-20 pr-10 pl-10"
+        "padding": "pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-4 sm:pr-8 sm:pl-8"
       },
       "background": {
         "fillStyles": "bg-accent1"
       },
-      "markup": "<section class=\"sm:p-12 px-20 text-white\">\n  <h2 class=\"font-2 text-lg uppercase mb-8  mx-auto max-w-desktop-full\">Connect with the filecoin community</h2>\n  <div class=\"flex sm:flex-col flex-row w-full mx-auto max-w-desktop-full text-md font-bold font-1\">\n    <ul class=\"sm:w-full w-1/3 sm:mb-6 mb-0 pl-12\">\n      <li class=\"mb-6\">\n        <img class=\"float-left -ml-12 w-6\" src=\"./img/icon-calendar.svg\">\n        <a href=\"https://calendar.google.com/calendar/b/6?cid=ZmlsZWNvaW4ub3JnX2o3bW1ldjI0ZzgwcmVsbzU2cHFtMWVsMWUwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20\"\n          target=\"_blank\">Subscribe to our calendar</a>\n      </li>\n      <li>\n        <img class=\"float-left -ml-12 w-6\" src=\"./img/icon-mail.svg\">\n        <a href=\"https://protocol.us20.list-manage.com/subscribe?u=0bc14cd7b6583be73cea72a5d&amp;id=0907dc2a53\"\n          target=\"_blank\">Subscribe to our mailing list</a>\n      </li>\n    </ul>\n    <ul class=\"sm:w-full w-1/3 sm:mb-6 mb-0 pl-12\">\n      <li>\n        <img class=\"float-left -ml-12\" src=\"./img/icon-slack.svg\">\n        <a href=\"https://filecoin.io/slack\" target=\"_blank\">Filecoin Slack Channel</a>\n      </li>\n    </ul>\n    <ul class=\"sm:w-full w-1/3 sm:mb-6 mb-0 pl-12\">\n      <li class=\"mb-6\">\n        <img class=\"float-left -ml-12\" src=\"./img/icon-twitter.svg\">\n        <a href=\"https://twitter.com/Filecoin\" target=\"_blank\">Filecoin</a>\n      </li>\n      <li class=\"mb-6\">\n        <a href=\"https://fil.org/\" target=\"_blank\">Filecoin Foundation</a>\n      </li>\n      <li class=\"mb-6\">\n        <a href=\"https://ffdweb.org/\" target=\"_blank\">Filecoin Foundation for the Decentralized Web</a>\n      </li>\n      <li>\n        <a href=\"https://ipfs.io/\" target=\"_blank\">IPFS</a>\n      </li>\n    </ul>\n  </div>\n</section>",
+      "markup": "<section class=\"text-white\">\n  <h2 class=\"font-2 text-lg uppercase mb-8  mx-auto max-w-desktop-full\">Connect with the filecoin community</h2>\n  <div class=\"flex sm:flex-col flex-row w-full mx-auto max-w-desktop-full text-md font-bold font-1\">\n    <ul class=\"sm:w-full w-1/3 sm:mb-6 mb-0 pl-12\">\n      <li class=\"mb-6\">\n        <img class=\"float-left -ml-12 w-6\" src=\"./img/icon-calendar.svg\">\n        <a href=\"https://calendar.google.com/calendar/b/6?cid=ZmlsZWNvaW4ub3JnX2o3bW1ldjI0ZzgwcmVsbzU2cHFtMWVsMWUwQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20\"\n          target=\"_blank\">Subscribe to our calendar</a>\n      </li>\n      <li>\n        <img class=\"float-left -ml-12 w-6\" src=\"./img/icon-mail.svg\">\n        <a href=\"https://protocol.us20.list-manage.com/subscribe?u=0bc14cd7b6583be73cea72a5d&amp;id=0907dc2a53\"\n          target=\"_blank\">Subscribe to our mailing list</a>\n      </li>\n    </ul>\n    <ul class=\"sm:w-full w-1/3 sm:mb-6 mb-0 pl-12\">\n      <li>\n        <img class=\"float-left -ml-12\" src=\"./img/icon-slack.svg\">\n        <a href=\"https://filecoin.io/slack\" target=\"_blank\">Filecoin Slack Channel</a>\n      </li>\n    </ul>\n    <ul class=\"sm:w-full w-1/3 sm:mb-6 mb-0 pl-12\">\n      <li class=\"mb-6\">\n        <img class=\"float-left -ml-12\" src=\"./img/icon-twitter.svg\">\n        <a href=\"https://twitter.com/Filecoin\" target=\"_blank\">Filecoin</a>\n      </li>\n      <li class=\"mb-6\">\n        <a href=\"https://fil.org/\" target=\"_blank\">Filecoin Foundation</a>\n      </li>\n      <li class=\"mb-6\">\n        <a href=\"https://ffdweb.org/\" target=\"_blank\">Filecoin Foundation for the Decentralized Web</a>\n      </li>\n      <li>\n        <a href=\"https://ipfs.io/\" target=\"_blank\">IPFS</a>\n      </li>\n    </ul>\n  </div>\n</section>",
       "_template": "embed"
     }
   ]

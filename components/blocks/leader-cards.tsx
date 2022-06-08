@@ -11,17 +11,17 @@ const linkTarget = (link) => {
 const Card = ({ data, index, parentField = ""  }) => {
   return (
     <div className="lc flex bg-accent1 text-white w-full py-4 px-10 sm:px-4">
-      <div className="lc-image-wrap w-12 h-12 mr-6 rounded-lg">
-        {data.imageSrc && (
-          <img
-            alt={data.name}
-            src={data.imageSrc}
-            className=""
-            data-tinafield={`${parentField}.${index}.image`}
-          />
-        )}
-      </div>
       <div className="flex w-full">
+        <div className="flex-none w-12 h-12 mr-6 rounded-lg sm:mr-4">
+          {data.imageSrc && (
+            <img
+              alt={data.name}
+              src={data.imageSrc}
+              className=""
+              data-tinafield={`${parentField}.${index}.image`}
+            />
+          )}
+        </div>
         <div className="flex-1 w-1/2">
           {data.name && <h2 className="font-bold text-md" data-tinafield={`${parentField}.${index}.name`}>{data.name}</h2>}
           {data.twitter && (
@@ -47,10 +47,10 @@ const Card = ({ data, index, parentField = ""  }) => {
 export const LeaderCards = ({ data, parentField = "" }) => {
   const tw = data.tailwind || {};
   return (
-    <Section className="p-20" background={data.background} navigationLabel={data.navigationLabel}>
+    <Section className="p-20 sm:px-4 sm:py-8" background={data.background} navigationLabel={data.navigationLabel}>
       <div className="">
         <div className={tw.content}>
-          {data.headline && <h2 className="font-bold font-2 text-3xl uppercase text-center text-white mb-8" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
+          {data.headline && <h2 className="font-bold font-2 text-3xl uppercase text-center text-white mb-8 sm:text-2xl" data-tinafield={`${parentField}.headline`}>{data.headline}</h2>}
         </div>
       </div>
       <div className="leader-cards grid gap-8 grid-cols-2 sm:gap-4 sm:grid-cols-1 mx-auto max-w-desktop-full">

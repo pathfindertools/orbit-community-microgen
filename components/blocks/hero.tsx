@@ -82,7 +82,7 @@ export const Hero = ({ data, parentField = ""  }) => {
   }
 
   return (
-    <section className="relative p-20">
+    <section className="relative p-20 sm:p-8">
       <style>{css}</style>
       <div className="mx-auto">
         <div className="absolute inset-0 -z-1">
@@ -99,22 +99,22 @@ export const Hero = ({ data, parentField = ""  }) => {
           <div className="absolute inset-0 bg-blue-a15"></div>
           <div className="bg-top bg-cover absolute inset-0" style={{backgroundImage: "url('./img/grid.svg')"}}></div>
         </div>
-        <div className="relative mx-auto mb-10 logo">
+        <div className="relative mx-auto mb-10 logo sm:my-6">
           <div className="absolute bg-primary rounded-full left-0 right-0 top-1 bottom-1 opacity-20 -z-1" style={{backdropFilter: "blur(2px)"}}></div>
           <img className="m-auto mb-16" src="./img/echo-logo.svg" />
         </div>
         <div className="text-center mb-12">
-          <img className="inline-block mx-8 my-8 w-14 h-14" src="./img/filecoin-logo.svg" alt="filecoin logo" />
-          <img className="inline-block mx-8 my-8 w-14 h-14" src="./img/ipfs-logo.svg" alt="IPFS logo" />
-          <img className="inline-block mx-8 my-8 w-14 h-14" src="./img/libp2p-logo.svg" alt="libp2p logo"/>
+          <img className="inline-block mx-8 my-8 w-14 h-14 sm:m-2 sm:h-12" src="./img/filecoin-logo.svg" alt="filecoin logo" />
+          <img className="inline-block mx-8 my-8 w-14 h-14 sm:m-2 sm:h-12" src="./img/ipfs-logo.svg" alt="IPFS logo" />
+          <img className="inline-block mx-8 my-8 w-14 h-14 sm:m-2 sm:h-12" src="./img/libp2p-logo.svg" alt="libp2p logo"/>
         </div>
-        <h1 className="text-white leading-none uppercase mb-20 text-center">
-          <div className="mb-3 mb-5 text-4xl font-1 font-bold sm:text-base ">Welcome to the</div>
-          <div className="mb-3 mb-5 text-6xl font-3 sm:text-xl">orbit community</div>
-          <div className="text-4xl font-1 font-bold sm:text-base ">program</div>
+        <h1 className="text-white leading-none uppercase mb-20 text-center sm:mb-12">
+          <div className="mb-3 mb-5 text-4xl font-1 font-bold sm:text-xl sm:mb-1 ">Welcome to the</div>
+          <div className="mb-3 mb-5 text-6xl font-3 sm:text-3xl sm:mb-1">orbit community</div>
+          <div className="text-4xl font-1 font-bold sm:text-xl ">program</div>
         </h1>
         
-        <div className={`flex w-full justify-center gap-16`}>
+        <div className={`flex w-full justify-center gap-16 sm:gap-8 sm:mb-6`}>
           {data.buttons &&
             data.buttons.map(function (button, index) {
               const element = (

@@ -3,8 +3,8 @@ import { Section } from "../section";
 import { Content } from "../content";
 
 const Modal = ({ data, parentField = "", className }) => {
-  const twModal = "max-w-lg-80 w-full bg-accent1 text-white p-16 rounded-3xl border-4 border-primary sm:px-4"
-  const twCloseButton = "absolute top-8 right-8 height-6 width-6"
+  const twModal = "max-w-lg-80 w-full bg-accent1 text-white p-16 rounded-3xl border-4 border-primary sm:p-8"
+  const twCloseButton = "absolute top-8 right-8 height-6 width-6 sm:top-4 sm:right-4"
 
   return (
     <div className={`${twModal} ${className}`}>
@@ -15,8 +15,8 @@ const Modal = ({ data, parentField = "", className }) => {
       </button>
       <div className={`flex flex-col ${data.width}`}>
         <div className={`markdown items-center`} data-tinafield={`${parentField}.body`}>
-          <p className="font-1 font-bold text-white text-xl">
-            <span className="text-accent2 font-2 uppercase">{data.headline} </span>
+          <p className="font-1 font-bold text-white text-xl sm:text-sm sm:font-normal">
+            <span className="text-accent2 font-2 uppercase sm:text-lg sm:leading-none">{data.headline} </span>
             {data.body}
           </p>
         </div>
@@ -27,13 +27,13 @@ const Modal = ({ data, parentField = "", className }) => {
 
 export const Modals = ({ data, parentField = "" }) => {
   const [activeModal, setActiveModal] = useState(null)
-  const twButtons = "flex flex-wrap gap-12 w-full justify-center"
+  const twButtons = "flex flex-wrap gap-12 w-full justify-center sm:gap-6 sm:mb-8"
   const twButton = "relative flex text-white uppercase border-4 border-primary font-bold rounded-full w-28 h-28 bg-accent1 transition-colors hover:border-accent2"
   const twButtonSpan = "block text-center m-auto font-2 leading-normal text-xs"
 
   return (
-    <Section className="p-20" background={data.background} navigationLabel={data.navigationLabel}>
-      <div className="max-w-desktop-full mx-auto border-4 border-primary bg-accent1 text-sm leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-glow">
+    <Section className="p-20 sm:px-6 sm:py-10" background={data.background} navigationLabel={data.navigationLabel}>
+      <div className="max-w-desktop-full mx-auto border-4 border-primary bg-accent1 text-sm leading-normal lg:text-lg rounded-3xl p-16 lg:p-16 shadow-glow sm:px-6 sm:pt-8 sm:pb-0">
         <Content
           label={data.label}
           headline={data.headline}
@@ -41,9 +41,9 @@ export const Modals = ({ data, parentField = "" }) => {
           body={data.body}
           buttons={data.buttons}
           labelStyles=""
-          headlineStyles="text-white text-2xl font-1 font-bold uppercase text-center mb-8"
+          headlineStyles="text-white text-2xl font-1 font-bold uppercase text-center mb-8 sm:text-lg sm:mb-6"
           subheadStyles=""
-          textStyles="text-white text-xl font-1 font-bold mb-8"
+          textStyles="text-white text-xl font-1 font-bold mb-8 sm:text-sm sm:font-normal"
           width="w-full"
           parentField={parentField} alignment={undefined} order={undefined}        />
         <div className={twButtons}>
