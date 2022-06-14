@@ -8,17 +8,20 @@ blocks:
         link: '#more-info'
     _template: hero
   - tailwind:
-      section: p-20 sm:px-6 sm:py-10
+      section: 'p-20 sm:px-6 sm:py-10'
       wrap: ''
       imageWrap: ''
       image: ''
-      contentWrap: 'max-w-desktop-full mx-auto bg-accent1 text-lg rounded-3xl p-16 border-4
-        border-primary shadow-xl shadow-glow sm:px-6 sm:pt-8 sm:pb-0'
+      contentWrap: >-
+        max-w-desktop-full mx-auto bg-accent1 text-lg rounded-3xl p-16 border-4
+        border-primary shadow-xl shadow-glow sm:px-6 sm:pt-8 sm:pb-0
       content: ''
       label: ''
-      headline: text-white text-2xl font-2 font-bold uppercase text-center mb-8 sm:text-lg sm:mb-6
+      headline: >-
+        text-white text-2xl font-2 font-bold uppercase text-center mb-8
+        sm:text-lg sm:mb-6
       subhead: ''
-      text: text-white text-xl font-1 font-bold mb-8 sm:text-sm sm:font-normal
+      text: 'text-white text-xl font-1 font-bold mb-8 sm:text-sm sm:font-normal'
       buttons: ''
     background:
       fillStyles: bg-accent1
@@ -106,17 +109,20 @@ blocks:
           representing Filecoin Ecosystem at public conferences.
     _template: modals
   - tailwind:
-      section: p-20 sm:px-6 sm:py-10
+      section: 'p-20 sm:px-6 sm:py-10'
       wrap: ''
       imageWrap: text-center
-      image: inline-block mb-20 animate-pulse h-20 sm:h-12 sm:mb-10
-      contentWrap: 'max-w-desktop-full mx-auto bg-accent1 text-lg rounded-3xl p-16 border-4
-        border-primary shadow-xl shadow-glow sm:px-6 sm:pt-8 sm:pb-0'
+      image: 'inline-block mb-20 animate-pulse h-20 sm:h-12 sm:mb-10'
+      contentWrap: >-
+        max-w-desktop-full mx-auto bg-accent1 text-lg rounded-3xl p-16 border-4
+        border-primary shadow-xl shadow-glow sm:px-6 sm:pt-8 sm:pb-0
       content: ''
       label: ''
-      headline: text-white text-2xl font-2 font-bold uppercase text-center mb-8 sm:text-lg sm:mb-6
+      headline: >-
+        text-white text-2xl font-2 font-bold uppercase text-center mb-8
+        sm:text-lg sm:mb-6
       subhead: ''
-      text: text-white text-xl font-1 font-bold mb-8 sm:text-sm sm:font-normal
+      text: 'text-white text-xl font-1 font-bold mb-8 sm:text-sm sm:font-normal'
       buttons: ''
     image:
       src: >-
@@ -295,7 +301,11 @@ blocks:
     marqueeText: Apply Here
     _template: marquee
 meta:
-  pageTitle: Microgen
-  pageDescription: Make modern web 3.0 ready websites with a real-time visual editor.
+  pageTitle: Filecoin Orbit Community
+  pageDescription: >-
+    The Orbit Community Program is the next step towards building a thriving,
+    engaged community, and a great way to dive into the Filecoin ecosystem.
+  siteImageSrc: >-
+    https://res.cloudinary.com/protocolai/image/upload/v1655178096/orbit-community/orbit-community-social-sharing_wr9wic.jpg
 ---
 
