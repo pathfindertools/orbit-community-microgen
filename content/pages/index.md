@@ -305,5 +305,7 @@ meta:
   pageDescription: >-
     The Orbit Community Program is the next step towards building a thriving,
     engaged community, and a great way to dive into the Filecoin ecosystem.
+  siteImageSrc: >-
+    https://res.cloudinary.com/protocolai/image/upload/v1655178096/orbit-community/orbit-community-social-sharing_wr9wic.jpg
 ---
 
