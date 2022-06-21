@@ -156,6 +156,11 @@ blocks:
       countryLabel: Country
       badgeLabel: Tier
     items:
+      - imageSrc: ''
+        name: Kumaraguru Thambidurai
+        twitter: hackyguru
+        country: india
+        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
         name: Ammar Husami
