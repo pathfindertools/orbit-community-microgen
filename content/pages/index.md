@@ -157,6 +157,12 @@ blocks:
       badgeLabel: Tier
     items:
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
+        name: Galina Fendikevich
+        twitter: galinaweb3
+        country: us
+        badge: cadet
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
         name: Kumaraguru Thambidurai
         twitter: hackyguru
