@@ -157,18 +157,6 @@ blocks:
       badgeLabel: Tier
     items:
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
-        name: Galina Fendikevich
-        twitter: galinaweb3
-        country: us
-        badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
-        name: Kumaraguru Thambidurai
-        twitter: hackyguru
-        country: india
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
         name: Ammar Husami
         twitter: husamia
@@ -180,6 +168,12 @@ blocks:
         twitter: KenLabs_Web3
         country: china
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637418/orbit-community/avatar-brian-ahimbisibwe_ll7jqe.png
+        name: Brian Ahimbisibwe
+        twitter: ahimbis07260494
+        country: uganda
+        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637416/orbit-community/avatar-blockchain-denver_gimuhk.png
         name: Blockchain Denver
@@ -193,10 +187,16 @@ blocks:
         country: tanzania
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637418/orbit-community/avatar-brian-ahimbisibwe_ll7jqe.png
-        name: Brian Ahimbisibwe
-        twitter: ahimbis07260494
-        country: uganda
+          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
+        name: Galina Fendikevich
+        twitter: galinaweb3
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
+        name: Kumaraguru Thambidurai
+        twitter: hackyguru
+        country: india
         badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637442/orbit-community/avatar-new-web-group_vmvnsa.png
