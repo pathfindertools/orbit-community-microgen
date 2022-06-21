@@ -156,7 +156,8 @@ blocks:
       countryLabel: Country
       badgeLabel: Tier
     items:
-      - imageSrc: ''
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
         name: Kumaraguru Thambidurai
         twitter: hackyguru
         country: india
