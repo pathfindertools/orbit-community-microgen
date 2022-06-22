@@ -114,6 +114,9 @@ export const leaderCardsBlockSchema: TinaTemplate = {
             component: "select",
           },
           options: [
+            { label: "Captain", value: "captain" },
+            { label: "Lietenant", value: "lieutenant" },
+            { label: "Ensign", value: "ensign" },
             { label: "Cadet", value: "cadet" },
             { label: "Spaceship", value: "spaceship" },
           ]

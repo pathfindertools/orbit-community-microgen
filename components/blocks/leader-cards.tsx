@@ -34,10 +34,10 @@ const Card = ({ data, index, parentField = ""  }) => {
           )}
         </div>
         <div
-          className="w-12 h-12 bg-contain bg-no-repeat mr-16 sm:mr-4"
+          className="flex-none w-20 min-w-12 h-12 bg-contain bg-no-repeat sm:mr-4"
           style={{backgroundImage: `url(./img/flag-${data.country}.png)`}}
         ></div>
-        <div className="w-8 h-12 bg-contain bg-no-repeat" style={{backgroundImage: `url(./img/badge-${data.badge}.png)`}}></div>
+        <div className=" flex-none w-8 h-12 bg-contain bg-no-repeat" style={{backgroundImage: `url(./img/badge-${data.badge}.png)`}}></div>
       </div>
     </div>
   )
