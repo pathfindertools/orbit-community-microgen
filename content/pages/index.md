@@ -161,7 +161,7 @@ blocks:
         name: Brian Ahimbisibwe
         twitter: ahimbis07260494
         country: uganda
-        badge: cadet
+        badge: ensign
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
         name: Ammar Husami
