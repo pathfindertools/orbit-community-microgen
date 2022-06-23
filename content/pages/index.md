@@ -163,6 +163,12 @@ blocks:
         country: uganda
         badge: ensign
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637440/orbit-community/avatar-martin-kyanja_byhpum.png
+        name: Martin Kyanja
+        twitter: kyanja_m
+        country: tanzania
+        badge: ensign
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
         name: Ammar Husami
         twitter: husamia
@@ -179,12 +185,6 @@ blocks:
         name: Ken Labs
         twitter: KenLabs_Web3
         country: china
-        badge: spaceship
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637440/orbit-community/avatar-martin-kyanja_byhpum.png
-        name: Martin Kyanja
-        twitter: kyanja_m
-        country: tanzania
         badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
