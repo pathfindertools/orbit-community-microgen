@@ -157,16 +157,16 @@ blocks:
       badgeLabel: Tier
     items:
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637418/orbit-community/avatar-brian-ahimbisibwe_ll7jqe.png
-        name: Brian Ahimbisibwe
-        twitter: ahimbis07260494
-        country: uganda
-        badge: ensign
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637440/orbit-community/avatar-martin-kyanja_byhpum.png
         name: Martin Kyanja
         twitter: kyanja_m
         country: tanzania
+        badge: ensign
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637418/orbit-community/avatar-brian-ahimbisibwe_ll7jqe.png
+        name: Brian Ahimbisibwe
+        twitter: ahimbis07260494
+        country: uganda
         badge: ensign
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
