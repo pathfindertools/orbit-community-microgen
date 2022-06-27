@@ -161,7 +161,7 @@ blocks:
         name: Brian Ahimbisibwe
         twitter: ahimbis07260494
         country: uganda
-        badge: cadet
+        badge: ensign
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637440/orbit-community/avatar-martin-kyanja_byhpum.png
         name: Martin Kyanja
