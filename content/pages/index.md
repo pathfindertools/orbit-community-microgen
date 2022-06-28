@@ -302,8 +302,7 @@ blocks:
           <script src="//embed.typeform.com/next/embed.js"></script>
         </div>
         <div class="border-accent2 border-t-4 border-l-2 w-1/2 min-h-100 sm:w-full sm:border-l-0">
-          <div data-tf-widget="XgSjcHyz" data-tf-iframe-props="title=Orbit - Spaceship App" data-tf-medium="snippet" style="width:100%;height:400px;"></div>
-          <script src="//embed.typeform.com/next/embed.js"></script>
+       <div data-tf-widget="XgSjcHyz" data-tf-iframe-props="title=Orbit - Spaceship App" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
         </div>
       </div>
     navigationLabel: Apply Now
