@@ -167,7 +167,7 @@ blocks:
         name: Martin Kyanja
         twitter: kyanja_m
         country: tanzania
-        badge: ensign
+        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
         name: Ammar Husami
