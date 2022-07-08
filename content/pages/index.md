@@ -73,12 +73,12 @@ blocks:
         buttonLabelSub: (Cadet)
         headline: NEW MEMBERS
         body: >
-          will join the Orbit Community Program as a Cadet. In this role, you
-          will become an active participant in the community and meet other
-          Orbit Community Members. As a Cadet, you will be helping us amplify
-          Filecoin news and official announcements via social media channels,
-          join local meetups, and expand your knowledge about Filecoin, IPFS,
-          and libp2p.
+          will join the Filecoin Orbit Community Program as a Cadet. In this
+          role, you will become an active participant in the community and meet
+          other Orbit Community Members. As a Cadet, you will be helping us
+          amplify Filecoin news and official announcements via social media
+          channels, join local meetups, and expand your knowledge about
+          Filecoin, IPFS, and libp2p.
       - buttonLabel: Tier 2
         buttonLabelSub: (Ensign)
         headline: YOU CAN TAKE ON THE ENSIGN ROLE
