@@ -26,7 +26,7 @@ blocks:
     background:
       fillStyles: bg-accent1
     label: ''
-    headline: Welcome to the Orbit Community Program!
+    headline: Welcome to the Filecoin Orbit Community Program!
     subhead: ''
     body: >
       Filecoin Orbit 2021 was a major celebration marking the first anniversary
