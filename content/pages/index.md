@@ -83,11 +83,11 @@ blocks:
         buttonLabelSub: (Ensign)
         headline: YOU CAN TAKE ON THE ENSIGN ROLE
         body: >
-          once you become an active contributor to the Orbit Community and have
-          a working knowledge of Filecoin, IPFS, and libp2p. Ensigns will focus
-          on supporting local community growth, joining meetups, giving talks at
-          local events, helping community members organize events, and creating
-          content.
+          once you become an active contributor to the Filecoin Orbit Community
+          and have a working knowledge of Filecoin, IPFS, and libp2p. Ensigns
+          will focus on supporting local community growth, joining meetups,
+          giving talks at local events, helping community members organize
+          events, and creating content.
       - buttonLabel: Tier 3
         buttonLabelSub: (Lieutenant)
         headline: EARNING YOUR LIEUTENANT ROLE
