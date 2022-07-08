@@ -270,7 +270,7 @@ blocks:
         name: Tippi Fifestarr
         twitter: fifestarr
         country: us
-        badge: cadet
+        badge: ensign
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637460/orbit-community/avatar-wenji-web_xpw3do.png
         name: Wengi Web
