@@ -137,8 +137,8 @@ blocks:
     headline: BECOME A SPACESHIP (FOR BUSINESS ORGANIZATIONS)
     subhead: ''
     body: >
-      As a business, you can become a Spaceship as a part of our Orbit Community
-      Program who is interested in helping us grow the Community. As a
+      As a business, you can become a Spaceship as a part of our Filecoin Orbit
+      Community Program who is interested in helping us grow the Community. As a
       Spaceship, you will be showcasing new use cases for Filecoin, IPFS, Libp2p
       participate, have the opportunity to speak at and sponsor conferences at a
       high level, introduce new collaborators, and so much more.
