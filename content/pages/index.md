@@ -36,15 +36,16 @@ blocks:
       from Italy to China, Nigeria to Japan, and more.
 
 
-      Now launching is the Orbit Community Program, the next step towards
-      building a thriving, engaged community, and a great way to dive into the
-      deep end of the Filecoin ecosystem. Participants will help amplify the
-      voice of Filecoin, IPFS, and libp2p in the web3 community (both online and
-      offline!), organize meetups and events, and create content and educational
-      resources. Whether you're a developer or a non-technical supporter, new to
-      Filecoin, or a regular contributor, all that's required is an interest in
-      advancing the mission to preserve humanity's most important information
-      through events and content like Orbit.
+      Now launching is the Filecoin Orbit Community Program, the next step
+      towards building a thriving, engaged community, and a great way to dive
+      into the deep end of the Filecoin ecosystem. Participants will help
+      amplify the voice of Filecoin, IPFS, and libp2p in the web3 community
+      (both online and offline!), organize meetups and events, and create
+      content and educational resources. Whether you're a developer or a
+      non-technical supporter, new to Filecoin, or a regular contributor, all
+      that's required is an interest in advancing the mission to preserve
+      humanity's most important information through events and content like
+      Filecoin Orbit.
     navigationLabel: More Info
     _template: tailwindFeature
   - background:
@@ -57,9 +58,9 @@ blocks:
       position: object-bottom
     headline: BECOME A CADET (INDIVIDUAL CONTRIBUTOR)
     body: >
-      You can apply for Orbit Community Program if you are a an individual,
-      partner, or collaborator who is interested in helping us grow the
-      Community. If you join as an individual contributor you will have an
+      You can apply for Filecoin Orbit Community Program if you are a an
+      individual, partner, or collaborator who is interested in helping us grow
+      the Community. If you join as an individual contributor you will have an
       opportunity to join our Program as Cadet and progress into Ensign,
       Lieutenant, or Captain once you reach certain milestones. As an
       individual, you will be focusing on growing the local community and
@@ -72,21 +73,21 @@ blocks:
         buttonLabelSub: (Cadet)
         headline: NEW MEMBERS
         body: >
-          will join the Orbit Community Program as a Cadet. In this role, you
-          will become an active participant in the community and meet other
-          Orbit Community Members. As a Cadet, you will be helping us amplify
-          Filecoin news and official announcements via social media channels,
-          join local meetups, and expand your knowledge about Filecoin, IPFS,
-          and libp2p.
+          will join the Filecoin Orbit Community Program as a Cadet. In this
+          role, you will become an active participant in the community and meet
+          other Orbit Community Members. As a Cadet, you will be helping us
+          amplify Filecoin news and official announcements via social media
+          channels, join local meetups, and expand your knowledge about
+          Filecoin, IPFS, and libp2p.
       - buttonLabel: Tier 2
         buttonLabelSub: (Ensign)
         headline: YOU CAN TAKE ON THE ENSIGN ROLE
         body: >
-          once you become an active contributor to the Orbit Community and have
-          a working knowledge of Filecoin, IPFS, and libp2p. Ensigns will focus
-          on supporting local community growth, joining meetups, giving talks at
-          local events, helping community members organize events, and creating
-          content.
+          once you become an active contributor to the Filecoin Orbit Community
+          and have a working knowledge of Filecoin, IPFS, and libp2p. Ensigns
+          will focus on supporting local community growth, joining meetups,
+          giving talks at local events, helping community members organize
+          events, and creating content.
       - buttonLabel: Tier 3
         buttonLabelSub: (Lieutenant)
         headline: EARNING YOUR LIEUTENANT ROLE
@@ -136,8 +137,8 @@ blocks:
     headline: BECOME A SPACESHIP (FOR BUSINESS ORGANIZATIONS)
     subhead: ''
     body: >
-      As a business, you can become a Spaceship as a part of our Orbit Community
-      Program who is interested in helping us grow the Community. As a
+      As a business, you can become a Spaceship as a part of our Filecoin Orbit
+      Community Program who is interested in helping us grow the Community. As a
       Spaceship, you will be showcasing new use cases for Filecoin, IPFS, Libp2p
       participate, have the opportunity to speak at and sponsor conferences at a
       high level, introduce new collaborators, and so much more.
@@ -169,9 +170,45 @@ blocks:
         country: tanzania
         badge: ensign
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637457/orbit-community/avatar-tippi-fifestarr_x5qi3w.png
+        name: Tippi Fifestarr
+        twitter: fifestarr
+        country: us
+        badge: ensign
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
         name: Ammar Husami
         twitter: husamia
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
+        name: Galina Fendikevich
+        twitter: galinaweb3
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637432/orbit-community/avatar-harsh-kumar_xcghtn.png
+        name: Harsh Kumar
+        twitter: spectre_harsh07
+        country: india
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637437/orbit-community/avatar-irene-yoon_zy8rff.png
+        name: Irene Yoon
+        twitter: ireney2022
+        country: south-korea
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
+        name: Kumaraguru Thambidurai
+        twitter: hackyguru
+        country: india
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637448/orbit-community/avatar-sam-tang_lr0uru.png
+        name: Sam Tang
+        twitter: samueltang06
         country: us
         badge: cadet
       - imageSrc: >-
@@ -180,12 +217,6 @@ blocks:
         twitter: du_web3
         country: us
         badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637421/orbit-community/avatar-et-link_bvygst.png
-        name: ET.Link
-        twitter: EtlinkCryptoMin
-        country: china
-        badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637424/orbit-community/avatar-ethereum-nigeria_lsclwd.png
         name: Ethereum Nigeria
@@ -205,41 +236,17 @@ blocks:
         country: us
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
-        name: Galina Fendikevich
-        twitter: galinaweb3
-        country: us
-        badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637432/orbit-community/avatar-harsh-kumar_xcghtn.png
-        name: Harsh Kumar
-        twitter: spectre_harsh07
-        country: india
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637434/orbit-community/avatar-ipfs-force_l6d3jg.png
         name: IPFS Force
         twitter: force_ipfs
         country: china
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637437/orbit-community/avatar-irene-yoon_zy8rff.png
-        name: Irene Yoon
-        twitter: ireney2022
-        country: south-korea
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
         name: Ken Labs
         twitter: KenLabs_Web3
         country: china
         badge: spaceship
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
-        name: Kumaraguru Thambidurai
-        twitter: hackyguru
-        country: india
-        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637442/orbit-community/avatar-new-web-group_vmvnsa.png
         name: New Web Group
@@ -253,29 +260,11 @@ blocks:
         country: uk
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637448/orbit-community/avatar-sam-tang_lr0uru.png
-        name: Sam Tang
-        twitter: samueltang06
-        country: us
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637451/orbit-community/avatar-secured-finance_bktwew.png
         name: Secured Finance
         twitter: FinanceSecured
         country: germany
         badge: spaceship
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637454/orbit-community/avatar-sinso_fofdee.png
-        name: Sinso
-        twitter: sinsotech
-        country: singapore
-        badge: spaceship
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637457/orbit-community/avatar-tippi-fifestarr_x5qi3w.png
-        name: Tippi Fifestarr
-        twitter: fifestarr
-        country: us
-        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637460/orbit-community/avatar-wenji-web_xpw3do.png
         name: Wengi Web
