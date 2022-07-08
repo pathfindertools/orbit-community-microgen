@@ -266,12 +266,6 @@ blocks:
         country: germany
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637454/orbit-community/avatar-sinso_fofdee.png
-        name: Sinso
-        twitter: sinsotech
-        country: singapore
-        badge: spaceship
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637457/orbit-community/avatar-tippi-fifestarr_x5qi3w.png
         name: Tippi Fifestarr
         twitter: fifestarr
