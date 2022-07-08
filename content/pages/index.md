@@ -219,7 +219,7 @@ blocks:
         badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637434/orbit-community/avatar-ipfs-force_l6d3jg.png
-        name: IPFS Force
+        name: Force Web3
         twitter: force_ipfs
         country: china
         badge: spaceship
