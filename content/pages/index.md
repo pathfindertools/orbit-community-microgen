@@ -26,7 +26,7 @@ blocks:
     background:
       fillStyles: bg-accent1
     label: ''
-    headline: Welcome to the Orbit Community Program!
+    headline: Welcome to the Filecoin Orbit Community Program!
     subhead: ''
     body: >
       Filecoin Orbit 2021 was a major celebration marking the first anniversary
@@ -36,15 +36,16 @@ blocks:
       from Italy to China, Nigeria to Japan, and more.
 
 
-      Now launching is the Orbit Community Program, the next step towards
-      building a thriving, engaged community, and a great way to dive into the
-      deep end of the Filecoin ecosystem. Participants will help amplify the
-      voice of Filecoin, IPFS, and libp2p in the web3 community (both online and
-      offline!), organize meetups and events, and create content and educational
-      resources. Whether you're a developer or a non-technical supporter, new to
-      Filecoin, or a regular contributor, all that's required is an interest in
-      advancing the mission to preserve humanity's most important information
-      through events and content like Orbit.
+      Now launching is the Filecoin Orbit Community Program, the next step
+      towards building a thriving, engaged community, and a great way to dive
+      into the deep end of the Filecoin ecosystem. Participants will help
+      amplify the voice of Filecoin, IPFS, and libp2p in the web3 community
+      (both online and offline!), organize meetups and events, and create
+      content and educational resources. Whether you're a developer or a
+      non-technical supporter, new to Filecoin, or a regular contributor, all
+      that's required is an interest in advancing the mission to preserve
+      humanity's most important information through events and content like
+      Filecoin Orbit.
     navigationLabel: More Info
     _template: tailwindFeature
   - background:
