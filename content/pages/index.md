@@ -182,12 +182,6 @@ blocks:
         country: us
         badge: cadet
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637421/orbit-community/avatar-et-link_bvygst.png
-        name: ET.Link
-        twitter: EtlinkCryptoMin
-        country: china
-        badge: spaceship
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637424/orbit-community/avatar-ethereum-nigeria_lsclwd.png
         name: Ethereum Nigeria
         twitter: EthereumNigeria
