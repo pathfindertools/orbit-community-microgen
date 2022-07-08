@@ -58,9 +58,9 @@ blocks:
       position: object-bottom
     headline: BECOME A CADET (INDIVIDUAL CONTRIBUTOR)
     body: >
-      You can apply for Orbit Community Program if you are a an individual,
-      partner, or collaborator who is interested in helping us grow the
-      Community. If you join as an individual contributor you will have an
+      You can apply for Filecoin Orbit Community Program if you are a an
+      individual, partner, or collaborator who is interested in helping us grow
+      the Community. If you join as an individual contributor you will have an
       opportunity to join our Program as Cadet and progress into Ensign,
       Lieutenant, or Captain once you reach certain milestones. As an
       individual, you will be focusing on growing the local community and
