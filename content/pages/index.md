@@ -176,12 +176,6 @@ blocks:
         country: us
         badge: cadet
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637416/orbit-community/avatar-blockchain-denver_gimuhk.png
-        name: Blockchain Denver
-        twitter: du_web3
-        country: us
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637424/orbit-community/avatar-ethereum-nigeria_lsclwd.png
         name: Ethereum Nigeria
         twitter: EthereumNigeria
