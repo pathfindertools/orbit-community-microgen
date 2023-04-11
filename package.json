@@ -6,7 +6,7 @@
     "dev": "yarn tinacms server:start -c \"next dev\"",
     "build": "yarn tinacms server:start -c \"next build\"",
     "start": "yarn tinacms server:start -c \"next start\"",
-    "export": "yarn build && next export && rm -rf out/index*",
+    "export": "yarn build && next export",
     "nextexport": "next export"
   },
   "devDependencies": {
