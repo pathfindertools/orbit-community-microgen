@@ -170,9 +170,51 @@ blocks:
         country: tanzania
         badge: cadet
       - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637457/orbit-community/avatar-tippi-fifestarr_x5qi3w.png
+        name: Tippi Fifestarr
+        twitter: fifestarr
+        country: us
+        badge: ensign
+      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637340/orbit-community/avatar-anmar-husami_cqeo3o.png
         name: Ammar Husami
         twitter: husamia
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
+        name: Galina Fendikevich
+        twitter: galinaweb3
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637432/orbit-community/avatar-harsh-kumar_xcghtn.png
+        name: Harsh Kumar
+        twitter: spectre_harsh07
+        country: india
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637437/orbit-community/avatar-irene-yoon_zy8rff.png
+        name: Irene Yoon
+        twitter: ireney2022
+        country: south-korea
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
+        name: Kumaraguru Thambidurai
+        twitter: hackyguru
+        country: india
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637448/orbit-community/avatar-sam-tang_lr0uru.png
+        name: Sam Tang
+        twitter: samueltang06
+        country: us
+        badge: cadet
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637416/orbit-community/avatar-blockchain-denver_gimuhk.png
+        name: Blockchain Denver
+        twitter: du_web3
         country: us
         badge: cadet
       - imageSrc: >-
@@ -194,41 +236,17 @@ blocks:
         country: us
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1655833627/IMG_20220424_005533_2_-_Galina_F_peitql.jpg
-        name: Galina Fendikevich
-        twitter: galinaweb3
-        country: us
-        badge: cadet
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637432/orbit-community/avatar-harsh-kumar_xcghtn.png
-        name: Harsh Kumar
-        twitter: spectre_harsh07
-        country: india
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637434/orbit-community/avatar-ipfs-force_l6d3jg.png
         name: Force Web3
         twitter: force_ipfs
         country: china
         badge: spaceship
       - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637437/orbit-community/avatar-irene-yoon_zy8rff.png
-        name: Irene Yoon
-        twitter: ireney2022
-        country: south-korea
-        badge: cadet
-      - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637375/orbit-community/avatar-ken-labs_mioi8n.png
         name: Ken Labs
         twitter: KenLabs_Web3
         country: china
         badge: spaceship
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1655833507/Kumaraguru_Thambidurai_3_tihemx.jpg
-        name: Kumaraguru Thambidurai
-        twitter: hackyguru
-        country: india
-        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637442/orbit-community/avatar-new-web-group_vmvnsa.png
         name: New Web Group
@@ -241,12 +259,6 @@ blocks:
         twitter: OpenGateVIP
         country: uk
         badge: spaceship
-      - imageSrc: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1654637448/orbit-community/avatar-sam-tang_lr0uru.png
-        name: Sam Tang
-        twitter: samueltang06
-        country: us
-        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637451/orbit-community/avatar-secured-finance_bktwew.png
         name: Secured Finance
