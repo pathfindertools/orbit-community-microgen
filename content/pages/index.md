@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 blocks:
   - buttons:
       - label: Apply Now
@@ -162,13 +162,13 @@ blocks:
         name: Brian Ahimbisibwe
         twitter: ahimbis07260494
         country: uganda
-        badge: ensign
+        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637440/orbit-community/avatar-martin-kyanja_byhpum.png
         name: Martin Kyanja
         twitter: kyanja_m
         country: tanzania
-        badge: ensign
+        badge: cadet
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637457/orbit-community/avatar-tippi-fifestarr_x5qi3w.png
         name: Tippi Fifestarr
@@ -237,7 +237,7 @@ blocks:
         badge: spaceship
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637434/orbit-community/avatar-ipfs-force_l6d3jg.png
-        name: IPFS Force
+        name: Force Web3
         twitter: force_ipfs
         country: china
         badge: spaceship
@@ -265,6 +265,12 @@ blocks:
         twitter: FinanceSecured
         country: germany
         badge: spaceship
+      - imageSrc: >-
+          https://res.cloudinary.com/protocolai/image/upload/v1654637457/orbit-community/avatar-tippi-fifestarr_x5qi3w.png
+        name: Tippi Fifestarr
+        twitter: fifestarr
+        country: us
+        badge: ensign
       - imageSrc: >-
           https://res.cloudinary.com/protocolai/image/upload/v1654637460/orbit-community/avatar-wenji-web_xpw3do.png
         name: Wengi Web
@@ -303,8 +309,9 @@ blocks:
 meta:
   pageTitle: Filecoin Orbit Community
   pageDescription: >-
-    The Orbit Community Program is the next step towards building a thriving,
-    engaged community, and a great way to dive into the Filecoin ecosystem.
+    The Filecoin Orbit Community Program is the next step towards building a
+    thriving, engaged community, and a great way to dive into the Filecoin
+    ecosystem.
   siteImageSrc: >-
     https://res.cloudinary.com/protocolai/image/upload/v1655178096/orbit-community/orbit-community-social-sharing_wr9wic.jpg
 ---
