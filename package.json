@@ -7,7 +7,7 @@
     "build": "yarn tinacms server:start -c \"next build\"",
     "start": "yarn tinacms server:start -c \"next start\"",
     "export": "yarn build && next export",
-    "redirect": "mkdir out && cp public/{index.html,_redirects} out/",
+    "redirect": "mkdir out && cp public/index.html out/ && cp public/_redirects out/",
     "nextexport": "next export"
   },
   "devDependencies": {
